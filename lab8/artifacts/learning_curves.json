@@ -1,0 +1,135 @@
+{
+  "protocol": {
+    "n_initial": 20,
+    "batch": 10,
+    "n_rounds": 8,
+    "note": "все стратегии стартуют с одинакового initial и делают одинаковые запросы"
+  },
+  "budgets": [
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ],
+  "curves": {
+    "random": [
+      {
+        "budget": 20,
+        "test_acc": 0.737
+      },
+      {
+        "budget": 30,
+        "test_acc": 0.813
+      },
+      {
+        "budget": 40,
+        "test_acc": 0.8778
+      },
+      {
+        "budget": 50,
+        "test_acc": 0.887
+      },
+      {
+        "budget": 60,
+        "test_acc": 0.8981
+      },
+      {
+        "budget": 70,
+        "test_acc": 0.9056
+      },
+      {
+        "budget": 80,
+        "test_acc": 0.9111
+      },
+      {
+        "budget": 90,
+        "test_acc": 0.9185
+      },
+      {
+        "budget": 100,
+        "test_acc": 0.913
+      }
+    ],
+    "entropy": [
+      {
+        "budget": 20,
+        "test_acc": 0.737
+      },
+      {
+        "budget": 30,
+        "test_acc": 0.7463
+      },
+      {
+        "budget": 40,
+        "test_acc": 0.787
+      },
+      {
+        "budget": 50,
+        "test_acc": 0.8778
+      },
+      {
+        "budget": 60,
+        "test_acc": 0.8611
+      },
+      {
+        "budget": 70,
+        "test_acc": 0.8778
+      },
+      {
+        "budget": 80,
+        "test_acc": 0.9037
+      },
+      {
+        "budget": 90,
+        "test_acc": 0.887
+      },
+      {
+        "budget": 100,
+        "test_acc": 0.8981
+      }
+    ],
+    "kcenter": [
+      {
+        "budget": 20,
+        "test_acc": 0.737
+      },
+      {
+        "budget": 30,
+        "test_acc": 0.8111
+      },
+      {
+        "budget": 40,
+        "test_acc": 0.8019
+      },
+      {
+        "budget": 50,
+        "test_acc": 0.7907
+      },
+      {
+        "budget": 60,
+        "test_acc": 0.8481
+      },
+      {
+        "budget": 70,
+        "test_acc": 0.8648
+      },
+      {
+        "budget": 80,
+        "test_acc": 0.863
+      },
+      {
+        "budget": 90,
+        "test_acc": 0.9
+      },
+      {
+        "budget": 100,
+        "test_acc": 0.9056
+      }
+    ]
+  }
+}

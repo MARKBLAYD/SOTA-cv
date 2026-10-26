@@ -1,0 +1,417 @@
+{
+  "hypothesis": "апскейл 32->224 улучшает валидность и точность",
+  "protocol": "одинаковый промпт/greedy, две версии входа",
+  "n": 20,
+  "orig32": {
+    "valid": 1.0,
+    "accuracy": 0.7,
+    "median_latency_s": 25.625
+  },
+  "up224": {
+    "valid": 1.0,
+    "accuracy": 0.8,
+    "median_latency_s": 25.365000000000002
+  },
+  "rows": [
+    {
+      "id": "test_581",
+      "gt": "airplane",
+      "orig32": {
+        "pred": "airplane",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 26.9,
+        "error": null
+      },
+      "up224": {
+        "pred": "airplane",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 25.05,
+        "error": null
+      }
+    },
+    {
+      "id": "test_2404",
+      "gt": "airplane",
+      "orig32": {
+        "pred": "airplane",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 24.41,
+        "error": null
+      },
+      "up224": {
+        "pred": "airplane",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 24.92,
+        "error": null
+      }
+    },
+    {
+      "id": "test_1229",
+      "gt": "automobile",
+      "orig32": {
+        "pred": "automobile",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 26.28,
+        "error": null
+      },
+      "up224": {
+        "pred": "automobile",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 28.34,
+        "error": null
+      }
+    },
+    {
+      "id": "test_2875",
+      "gt": "automobile",
+      "orig32": {
+        "pred": "automobile",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 32.07,
+        "error": null
+      },
+      "up224": {
+        "pred": "automobile",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 30.36,
+        "error": null
+      }
+    },
+    {
+      "id": "test_988",
+      "gt": "bird",
+      "orig32": {
+        "pred": "bird",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 24.95,
+        "error": null
+      },
+      "up224": {
+        "pred": "bird",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 24.89,
+        "error": null
+      }
+    },
+    {
+      "id": "test_3710",
+      "gt": "bird",
+      "orig32": {
+        "pred": "bird",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 29.4,
+        "error": null
+      },
+      "up224": {
+        "pred": "bird",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 26.76,
+        "error": null
+      }
+    },
+    {
+      "id": "test_1166",
+      "gt": "cat",
+      "orig32": {
+        "pred": "dog",
+        "valid": true,
+        "correct": false,
+        "uncertain": false,
+        "latency_s": 27.25,
+        "error": null
+      },
+      "up224": {
+        "pred": "cat",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 25.2,
+        "error": null
+      }
+    },
+    {
+      "id": "test_5011",
+      "gt": "cat",
+      "orig32": {
+        "pred": "cat",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 24.27,
+        "error": null
+      },
+      "up224": {
+        "pred": "cat",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 24.96,
+        "error": null
+      }
+    },
+    {
+      "id": "test_737",
+      "gt": "deer",
+      "orig32": {
+        "pred": "deer",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 23.51,
+        "error": null
+      },
+      "up224": {
+        "pred": "bird",
+        "valid": true,
+        "correct": false,
+        "uncertain": true,
+        "latency_s": 22.93,
+        "error": null
+      }
+    },
+    {
+      "id": "test_4350",
+      "gt": "deer",
+      "orig32": {
+        "pred": "automobile",
+        "valid": true,
+        "correct": false,
+        "uncertain": false,
+        "latency_s": 25.67,
+        "error": null
+      },
+      "up224": {
+        "pred": "deer",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 25.85,
+        "error": null
+      }
+    },
+    {
+      "id": "test_1862",
+      "gt": "dog",
+      "orig32": {
+        "pred": "dog",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 24.33,
+        "error": null
+      },
+      "up224": {
+        "pred": "dog",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 25.32,
+        "error": null
+      }
+    },
+    {
+      "id": "test_1908",
+      "gt": "dog",
+      "orig32": {
+        "pred": "cat",
+        "valid": true,
+        "correct": false,
+        "uncertain": false,
+        "latency_s": 23.86,
+        "error": null
+      },
+      "up224": {
+        "pred": "cat",
+        "valid": true,
+        "correct": false,
+        "uncertain": true,
+        "latency_s": 28.19,
+        "error": null
+      }
+    },
+    {
+      "id": "test_952",
+      "gt": "frog",
+      "orig32": {
+        "pred": "frog",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 25.08,
+        "error": null
+      },
+      "up224": {
+        "pred": "frog",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 24.78,
+        "error": null
+      }
+    },
+    {
+      "id": "test_3455",
+      "gt": "frog",
+      "orig32": {
+        "pred": "dog",
+        "valid": true,
+        "correct": false,
+        "uncertain": false,
+        "latency_s": 25.58,
+        "error": null
+      },
+      "up224": {
+        "pred": "frog",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 23.77,
+        "error": null
+      }
+    },
+    {
+      "id": "test_2440",
+      "gt": "horse",
+      "orig32": {
+        "pred": "horse",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 23.97,
+        "error": null
+      },
+      "up224": {
+        "pred": "horse",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 27.49,
+        "error": null
+      }
+    },
+    {
+      "id": "test_3367",
+      "gt": "horse",
+      "orig32": {
+        "pred": "horse",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 23.29,
+        "error": null
+      },
+      "up224": {
+        "pred": "horse",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 24.14,
+        "error": null
+      }
+    },
+    {
+      "id": "test_6429",
+      "gt": "ship",
+      "orig32": {
+        "pred": "ship",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 26.83,
+        "error": null
+      },
+      "up224": {
+        "pred": "ship",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 27.68,
+        "error": null
+      }
+    },
+    {
+      "id": "test_6490",
+      "gt": "ship",
+      "orig32": {
+        "pred": "automobile",
+        "valid": true,
+        "correct": false,
+        "uncertain": false,
+        "latency_s": 27.19,
+        "error": null
+      },
+      "up224": {
+        "pred": "automobile",
+        "valid": true,
+        "correct": false,
+        "uncertain": false,
+        "latency_s": 26.34,
+        "error": null
+      }
+    },
+    {
+      "id": "test_209",
+      "gt": "truck",
+      "orig32": {
+        "pred": "truck",
+        "valid": true,
+        "correct": true,
+        "uncertain": false,
+        "latency_s": 27.86,
+        "error": null
+      },
+      "up224": {
+        "pred": "truck",
+        "valid": true,
+        "correct": true,
+        "uncertain": true,
+        "latency_s": 30.53,
+        "error": null
+      }
+    },
+    {
+      "id": "test_960",
+      "gt": "truck",
+      "orig32": {
+        "pred": "automobile",
+        "valid": true,
+        "correct": false,
+        "uncertain": false,
+        "latency_s": 27.33,
+        "error": null
+      },
+      "up224": {
+        "pred": "automobile",
+        "valid": true,
+        "correct": false,
+        "uncertain": true,
+        "latency_s": 25.41,
+        "error": null
+      }
+    }
+  ]
+}

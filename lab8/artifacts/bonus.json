@@ -1,0 +1,24 @@
+{
+  "hypothesis": "лимит по предсказанному классу в entropy-батче увеличивает AUC",
+  "protocol": "тот же initial/test/бюджет; entropy_diverse, 3 сида",
+  "results": {
+    "random": {
+      "auc": 0.8795,
+      "final_acc": 0.913
+    },
+    "entropy": {
+      "auc": 0.8448,
+      "final_acc": 0.8981
+    },
+    "entropy_diverse": {
+      "auc": 0.8624,
+      "final_acc": 0.9093
+    }
+  },
+  "auc_diverse_by_seed": [
+    0.8624,
+    0.8624,
+    0.8624
+  ],
+  "delta_auc_vs_entropy": 0.0176
+}

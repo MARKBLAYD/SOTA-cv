@@ -1,0 +1,8 @@
+{
+    "encoder": "dinov2_vits14",
+    "best_k": 5,
+    "knn_test_acc": 0.928,
+    "knn_test_macro_f1": 0.9269233107018383,
+    "linear_test_acc": 0.955,
+    "linear_test_macro_f1": 0.9544075042873779
+}

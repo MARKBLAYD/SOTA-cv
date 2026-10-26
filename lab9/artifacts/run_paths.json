@@ -1,0 +1,8 @@
+{
+  "fast": false,
+  "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "yaml": "C:\\Users\\eric1\\Desktop\\SOTA\\lab9\\artifacts\\sft.yaml",
+  "output_dir": "C:\\Users\\eric1\\Desktop\\SOTA\\lab9\\artifacts\\lab9_adapter",
+  "data_dir": "C:\\Users\\eric1\\Desktop\\SOTA\\lab9\\artifacts",
+  "fingerprint": "eaa8950b5719ca837fb59ef36a0451d9256ff4bd20163361a907a4ce31c92444"
+}

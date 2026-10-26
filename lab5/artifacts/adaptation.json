@@ -1,0 +1,10 @@
+{
+    "zero_shot_acc": {
+        "baseline": 0.8544999957084656,
+        "adapted": 0.9334999918937683
+    },
+    "mean_precision_at_10": {
+        "baseline": 0.9399999999999998,
+        "adapted": 1.0
+    }
+}

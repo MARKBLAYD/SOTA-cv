@@ -1,0 +1,5 @@
+{
+    "encoder": "dinov2_vits14",
+    "feat_dim": 384,
+    "fp16": false
+}

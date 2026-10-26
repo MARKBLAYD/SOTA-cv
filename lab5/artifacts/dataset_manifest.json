@@ -1,0 +1,6 @@
+{
+    "train_pairs": 5000,
+    "test": 2000,
+    "pretrained": "openai",
+    "seed": 42
+}

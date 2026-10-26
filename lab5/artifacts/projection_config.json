@@ -1,0 +1,5 @@
+{
+    "init": "identity",
+    "dim": 512,
+    "train_pairs": 5000
+}

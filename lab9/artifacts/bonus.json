@@ -1,0 +1,41 @@
+{
+  "hypothesis": "предсказание зависит от позиции правильного варианта (позиционное смещение); после SFT на фиксированном формате смещение усиливается",
+  "protocol": "32 ID-test изображений, циклический сдвиг вариантов на 1, парные base/sft, greedy, отложенный test — только материал измерения",
+  "results": {
+    "base": {
+      "acc_orig": 0.875,
+      "acc_permuted": 0.875,
+      "delta": 0.0,
+      "correct_to_wrong": 3,
+      "wrong_to_correct": 3,
+      "letter_dist_orig": {
+        "A": 14,
+        "B": 12,
+        "C": 6
+      },
+      "letter_dist_perm": {
+        "A": 12,
+        "B": 16,
+        "C": 4
+      }
+    },
+    "sft": {
+      "acc_orig": 0.875,
+      "acc_permuted": 0.875,
+      "delta": 0.0,
+      "correct_to_wrong": 1,
+      "wrong_to_correct": 1,
+      "letter_dist_orig": {
+        "A": 14,
+        "B": 12,
+        "C": 6
+      },
+      "letter_dist_perm": {
+        "A": 12,
+        "B": 16,
+        "C": 4
+      }
+    }
+  },
+  "verdict": "позиционная зависимость есть: сдвиг вариантов меняет ответы"
+}

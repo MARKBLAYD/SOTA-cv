@@ -1,0 +1,179 @@
+{
+  "model": {
+    "model_id": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "precision": "nf4",
+    "device": "cuda",
+    "transformers": "4.57.6",
+    "torch": "2.6.0+cu124",
+    "bitsandbytes": "0.50.2"
+  },
+  "mode": "full",
+  "n_examples": 20,
+  "metrics": {
+    "mode": "full",
+    "n_examples": 20,
+    "by_category": {
+      "caption": {
+        "n": 5,
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "open_vqa": {
+        "n": 5,
+        "em": 0.0,
+        "f1": 0.1145
+      },
+      "document_qa": {
+        "n": 5,
+        "em": 0.4,
+        "f1": 0.6164
+      },
+      "object_count_json": {
+        "n": 5,
+        "em": 0.2,
+        "f1": 0.2
+      }
+    },
+    "note": "EM/F1 после нормализации (регистр, пунктуация, артикли); для object_count_json: em = точное совпадение JSON, f1 = совпадение count; caption исключён — ручная оценка"
+  },
+  "latency_main": {
+    "median_s": 15.462,
+    "p95_s": 25.6705,
+    "total_s": 338.5
+  },
+  "ablation_quality": {
+    "mode": "full",
+    "configs": [
+      {
+        "config_id": "brief|r512|greedy",
+        "prompt_name": "brief",
+        "resolution": 512,
+        "decoding": "greedy",
+        "n": 10,
+        "em": 0.3,
+        "f1": 0.3444,
+        "median_latency_s": 13.0545
+      },
+      {
+        "config_id": "brief|r512|sampling",
+        "prompt_name": "brief",
+        "resolution": 512,
+        "decoding": "sampling",
+        "n": 10,
+        "em": 0.3,
+        "f1": 0.362,
+        "median_latency_s": 12.981
+      },
+      {
+        "config_id": "brief|r1024|sampling",
+        "prompt_name": "brief",
+        "resolution": 1024,
+        "decoding": "sampling",
+        "n": 10,
+        "em": 0.3,
+        "f1": 0.3575,
+        "median_latency_s": 13.6025
+      },
+      {
+        "config_id": "base|r512|sampling",
+        "prompt_name": "base",
+        "resolution": 512,
+        "decoding": "sampling",
+        "n": 10,
+        "em": 0.2,
+        "f1": 0.3357,
+        "median_latency_s": 14.846499999999999
+      },
+      {
+        "config_id": "base|r1024|greedy",
+        "prompt_name": "base",
+        "resolution": 1024,
+        "decoding": "greedy",
+        "n": 10,
+        "em": 0.2,
+        "f1": 0.3719,
+        "median_latency_s": 13.8885
+      },
+      {
+        "config_id": "brief|r1024|greedy",
+        "prompt_name": "brief",
+        "resolution": 1024,
+        "decoding": "greedy",
+        "n": 10,
+        "em": 0.2,
+        "f1": 0.3393,
+        "median_latency_s": 13.6485
+      },
+      {
+        "config_id": "base|r512|greedy",
+        "prompt_name": "base",
+        "resolution": 512,
+        "decoding": "greedy",
+        "n": 10,
+        "em": 0.1,
+        "f1": 0.2682,
+        "median_latency_s": 13.479
+      },
+      {
+        "config_id": "base|r1024|sampling",
+        "prompt_name": "base",
+        "resolution": 1024,
+        "decoding": "sampling",
+        "n": 10,
+        "em": 0.0,
+        "f1": 0.2835,
+        "median_latency_s": 14.056999999999999
+      }
+    ],
+    "note": "нормализованный EM/F1 на VQA/OCR; у всех вариантов один и тот же набор изображений"
+  },
+  "ablation_latency": {
+    "base|r512|greedy": {
+      "median_s": 13.479,
+      "p95_s": 17.22185
+    },
+    "base|r512|sampling": {
+      "median_s": 14.846499999999999,
+      "p95_s": 17.0945
+    },
+    "base|r1024|greedy": {
+      "median_s": 13.8885,
+      "p95_s": 17.080949999999998
+    },
+    "base|r1024|sampling": {
+      "median_s": 14.056999999999999,
+      "p95_s": 17.681449999999998
+    },
+    "brief|r512|greedy": {
+      "median_s": 13.0545,
+      "p95_s": 16.465
+    },
+    "brief|r512|sampling": {
+      "median_s": 12.981,
+      "p95_s": 16.45255
+    },
+    "brief|r1024|greedy": {
+      "median_s": 13.6485,
+      "p95_s": 16.2331
+    },
+    "brief|r1024|sampling": {
+      "median_s": 13.6025,
+      "p95_s": 16.2853
+    }
+  },
+  "manual_review": {
+    "n_total": 20,
+    "n_reviewed": 20,
+    "n_pending": 0,
+    "complete": true,
+    "error_type_counts": {
+      "hallucination": 5,
+      "other": 1,
+      "counting": 4
+    }
+  },
+  "budget": {
+    "n_generations_total": 100,
+    "inference_time_s": 1458.6
+  }
+}

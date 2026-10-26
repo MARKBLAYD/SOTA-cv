@@ -1,0 +1,6 @@
+{
+    "encoder": "dinov2_vits14",
+    "test_acc_before": 0.955,
+    "test_acc_after": 0.9575,
+    "delta": 0.0025000000000000577
+}

@@ -1,0 +1,40 @@
+{
+  "all_passed": true,
+  "cases": [
+    {
+      "raw": "{\"class_name\": \"cat\", \"caption\": \"A photo of a single cat sitting on grass.\", \"uncertain\": false}",
+      "valid": true,
+      "expected": true,
+      "passed": true,
+      "error": null
+    },
+    {
+      "raw": "Вот ответ: {\"class_name\": \"ship\", \"caption\": \"A large ship sails on open water near the port.\", \"uncertain\": false}",
+      "valid": true,
+      "expected": true,
+      "passed": true,
+      "error": null
+    },
+    {
+      "raw": "{\"class_name\": \"puppy\", \"caption\": \"A puppy plays with a ball in the yard.\", \"uncertain\": false}",
+      "valid": false,
+      "expected": false,
+      "passed": true,
+      "error": "schema: Input should be 'airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship' or 'truck'"
+    },
+    {
+      "raw": "{\"class_name\": \"frog\", \"caption\": \"Жаба\", \"uncertain\": false}",
+      "valid": false,
+      "expected": false,
+      "passed": true,
+      "error": "schema: String should have at least 15 characters"
+    },
+    {
+      "raw": "no json here at all",
+      "valid": false,
+      "expected": false,
+      "passed": true,
+      "error": "no_json_object"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": {
+    "properties": {
+      "class_name": {
+        "enum": [
+          "airplane",
+          "automobile",
+          "bird",
+          "cat",
+          "deer",
+          "dog",
+          "frog",
+          "horse",
+          "ship",
+          "truck"
+        ],
+        "title": "Class Name",
+        "type": "string"
+      },
+      "caption": {
+        "minLength": 15,
+        "title": "Caption",
+        "type": "string"
+      },
+      "uncertain": {
+        "default": false,
+        "title": "Uncertain",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "class_name",
+      "caption"
+    ],
+    "title": "Annotation",
+    "type": "object"
+  },
+  "prompt": "Look at the image. Return ONLY a JSON object with exactly these keys:\n{\"class_name\": \"<one of: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck>\", \"caption\": \"<1-2 English sentences describing the image>\", \"uncertain\": <true|false>}\nclass_name must be exactly one of the listed classes. If unsure, pick the closest one and set uncertain=true."
+}

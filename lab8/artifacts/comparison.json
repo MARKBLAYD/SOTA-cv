@@ -1,0 +1,41 @@
+{
+  "protocol": {
+    "n_initial": 20,
+    "batch": 10,
+    "n_rounds": 8,
+    "final_budget": 100,
+    "n_test": 540,
+    "classifier": "LogisticRegression(max_iter=2000) на сырых пикселях 8x8"
+  },
+  "strategies": {
+    "random": {
+      "auc": 0.8795,
+      "final_acc": 0.913
+    },
+    "entropy": {
+      "auc": 0.8448,
+      "final_acc": 0.8981
+    },
+    "kcenter": {
+      "auc": 0.8376,
+      "final_acc": 0.9056
+    }
+  },
+  "random_repeats": {
+    "n": 5,
+    "auc_mean_std": [
+      0.8353,
+      0.0234
+    ],
+    "final_acc_mean_std": [
+      0.9067,
+      0.0134
+    ]
+  },
+  "ranking_by_auc": [
+    "random",
+    "entropy",
+    "kcenter"
+  ],
+  "conclusion": "Лучшая стратегия по AUC: random. Разрыв с random корректен только с учётом разброса повторов (random final_acc 0.907±0.013)."
+}

@@ -1,0 +1,35 @@
+{
+  "metric": "exact match буквы ответа; знаменатель — все примеры сплита",
+  "n_total": 192,
+  "overall": {
+    "base": 0.7552,
+    "sft": 0.8021
+  },
+  "per_split": {
+    "id_test": {
+      "n": 64,
+      "base_exact_match": 0.875,
+      "sft_exact_match": 0.8438,
+      "delta": -0.0312,
+      "base_format_errors": 0,
+      "sft_format_errors": 0
+    },
+    "ood_test": {
+      "n": 64,
+      "base_exact_match": 0.5156,
+      "sft_exact_match": 0.6719,
+      "delta": 0.1562,
+      "base_format_errors": 0,
+      "sft_format_errors": 0
+    },
+    "general_test": {
+      "n": 64,
+      "base_exact_match": 0.875,
+      "sft_exact_match": 0.8906,
+      "delta": 0.0156,
+      "base_format_errors": 0,
+      "sft_format_errors": 0
+    }
+  },
+  "conclusion": "Exact match: ID 0.875->0.8438 (-0.03), OOD 0.5156->0.6719 (+0.16), general 0.875->0.8906 (+0.02). Улучшение ID не гарантирует улучшение OOD: адаптер обучен только на natural science 1–6 классов и подгоняет формат ответа и знания под train-распределение. OOD — те же темы, но 7–12 классы (сдвиг сложности и формулировок), general — вообще другие предметы: LoRA-правки, полезные в ID, там могут не переноситься или мешать, поэтому выигрыш проверяется отдельно на каждом сплите."
+}

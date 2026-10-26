@@ -1,0 +1,8 @@
+{
+  "model_id": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+  "precision": "nf4",
+  "device": "cuda",
+  "transformers": "4.57.6",
+  "torch": "2.6.0+cu124",
+  "bitsandbytes": "0.50.2"
+}

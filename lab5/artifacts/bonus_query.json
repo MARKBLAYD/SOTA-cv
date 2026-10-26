@@ -1,0 +1,27 @@
+{
+    "query": "a photo of something that can fly.",
+    "top10_test_idx": [
+        914,
+        1189,
+        499,
+        154,
+        864,
+        378,
+        1547,
+        489,
+        1785,
+        1725
+    ],
+    "top10_labels": [
+        "airplane",
+        "airplane",
+        "airplane",
+        "airplane",
+        "airplane",
+        "airplane",
+        "bird",
+        "airplane",
+        "airplane",
+        "airplane"
+    ]
+}

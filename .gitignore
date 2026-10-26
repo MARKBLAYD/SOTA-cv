@@ -1,0 +1,31 @@
+# --- model weights: too big for git ---
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.onnx
+*.gguf
+*.ckpt
+
+# --- datasets and images ---
+data/
+datasets/
+hf_cache/
+.cache/
+
+# --- python / jupyter junk ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- logs and experiments ---
+wandb/
+runs/
+logs/
+*.log
+
+# --- os junk ---
+Thumbs.db
+.DS_Store

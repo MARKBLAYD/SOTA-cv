@@ -1,0 +1,90 @@
+{
+  "note": "частоты всех букв отдельно по split; перевес одной буквы учитываем при интерпретации accuracy",
+  "splits": {
+    "train": {
+      "n": 512,
+      "letter_freq": {
+        "A": 209,
+        "B": 230,
+        "C": 72,
+        "D": 1,
+        "E": 0
+      },
+      "grades": [
+        "grade2",
+        "grade3",
+        "grade4",
+        "grade5",
+        "grade6"
+      ]
+    },
+    "validation": {
+      "n": 64,
+      "letter_freq": {
+        "A": 24,
+        "B": 32,
+        "C": 8,
+        "D": 0,
+        "E": 0
+      },
+      "grades": [
+        "grade2",
+        "grade3",
+        "grade4",
+        "grade5",
+        "grade6"
+      ]
+    },
+    "id_test": {
+      "n": 64,
+      "letter_freq": {
+        "A": 26,
+        "B": 27,
+        "C": 11,
+        "D": 0,
+        "E": 0
+      },
+      "grades": [
+        "grade2",
+        "grade3",
+        "grade4",
+        "grade5",
+        "grade6"
+      ]
+    },
+    "ood_test": {
+      "n": 64,
+      "letter_freq": {
+        "A": 25,
+        "B": 27,
+        "C": 9,
+        "D": 3,
+        "E": 0
+      },
+      "grades": [
+        "grade7",
+        "grade8"
+      ]
+    },
+    "general_test": {
+      "n": 64,
+      "letter_freq": {
+        "A": 13,
+        "B": 21,
+        "C": 17,
+        "D": 13,
+        "E": 0
+      },
+      "grades": [
+        "grade12",
+        "grade2",
+        "grade3",
+        "grade4",
+        "grade5",
+        "grade6",
+        "grade7",
+        "grade8"
+      ]
+    }
+  }
+}

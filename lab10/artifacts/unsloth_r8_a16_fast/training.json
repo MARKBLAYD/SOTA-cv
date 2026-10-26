@@ -1,0 +1,29 @@
+{
+  "rank": 8,
+  "alpha": 16,
+  "lr": 0.0001,
+  "seed": 42,
+  "optimizer_steps_done": 4,
+  "gradient_accumulation": 16,
+  "micro_batch": 1,
+  "effective_batch": 16,
+  "loss_history": [
+    5.467049479484558,
+    4.8764068484306335,
+    4.250166863203049,
+    3.715327739715576
+  ],
+  "final_loss": 3.715327739715576,
+  "wall_seconds": 306.9,
+  "seconds_per_optimizer_step": 76.73,
+  "peak_vram_bytes": 3414860288,
+  "peak_vram_gb": 3.18,
+  "processed_micro_batches": 64,
+  "processed_examples": 64,
+  "supervised_tokens": 3784,
+  "throughput_examples_per_s": 0.21,
+  "resumed_from_step": 0,
+  "optimizer_state_resumed": false,
+  "gpu": "NVIDIA GeForce GTX 1050 Ti",
+  "note_time": "время измерено с torch.cuda.synchronize-барьером цикла; wall_seconds только за эту сессию"
+}

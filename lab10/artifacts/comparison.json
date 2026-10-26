@@ -1,0 +1,79 @@
+{
+  "budget_note": "unsloth: одинаковые GPU/шаги/accum/данные. baseline лабы 9: тот же GPU и бюджет, но wall-clock включает eval каждые 20 шагов -> прямое сравнение времени некорректно",
+  "speedup_claim": "не заявляем по wall-clock; корректное сравнение — seconds_per_optimizer_step",
+  "r8_a16": {
+    "quality": {
+      "id_test": {
+        "em": 0.8281,
+        "format_rate": 1.0,
+        "n": 64
+      },
+      "ood_test": {
+        "em": 0.625,
+        "format_rate": 1.0,
+        "n": 64
+      }
+    },
+    "seconds_per_optimizer_step": 69.97,
+    "peak_vram_gb": 3.18,
+    "final_loss": 0.15203503903467208
+  },
+  "r16_a16": {
+    "quality": {
+      "id_test": {
+        "em": 0.7969,
+        "format_rate": 1.0,
+        "n": 64
+      },
+      "ood_test": {
+        "em": 0.6719,
+        "format_rate": 1.0,
+        "n": 64
+      }
+    },
+    "seconds_per_optimizer_step": 110.37,
+    "peak_vram_gb": 3.62,
+    "final_loss": 0.12139820621814579
+  },
+  "llamafactory_lab9_baseline": {
+    "status": "found",
+    "path": "..\\lab9\\artifacts",
+    "evaluation": {
+      "metric": "exact match буквы ответа; знаменатель — все примеры сплита",
+      "n_total": 192,
+      "overall": {
+        "base": 0.7552,
+        "sft": 0.8021
+      },
+      "per_split": {
+        "id_test": {
+          "n": 64,
+          "base_exact_match": 0.875,
+          "sft_exact_match": 0.8438,
+          "delta": -0.0312,
+          "base_format_errors": 0,
+          "sft_format_errors": 0
+        },
+        "ood_test": {
+          "n": 64,
+          "base_exact_match": 0.5156,
+          "sft_exact_match": 0.6719,
+          "delta": 0.1562,
+          "base_format_errors": 0,
+          "sft_format_errors": 0
+        },
+        "general_test": {
+          "n": 64,
+          "base_exact_match": 0.875,
+          "sft_exact_match": 0.8906,
+          "delta": 0.0156,
+          "base_format_errors": 0,
+          "sft_format_errors": 0
+        }
+      },
+      "conclusion": "Exact match: ID 0.875->0.8438 (-0.03), OOD 0.5156->0.6719 (+0.16), general 0.875->0.8906 (+0.02). Улучшение ID не гарантирует улучшение OOD: адаптер обучен только на natural science 1–6 классов и подгоняет формат ответа и знания под train-распределение. OOD — те же темы, но 7–12 классы (сдвиг сложности и формулировок), general — вообще другие предметы: LoRA-правки, полезные в ID, там могут не переноситься или мешать, поэтому выигрыш проверяется отдельно на каждом сплите."
+    },
+    "train_runtime_seconds": 17538.1,
+    "seconds_per_optimizer_step": 175.38
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "pretrained": "openai",
+    "n_test": 2000,
+    "templates": {
+        "a photo of a {}.": 0.8545,
+        "a blurry photo of a {}.": 0.853,
+        "a low resolution photo of a {}.": 0.8655,
+        "a photo of the small {}.": 0.8495,
+        "a photo of the large {}.": 0.873
+    }
+}

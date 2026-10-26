@@ -1,0 +1,8 @@
+{
+  "mode": "fresh",
+  "checkpoints_found": [],
+  "selected": null,
+  "selection_rule": "max(int(global_step)) из имён checkpoint-N с проверкой содержимого; НЕ лексикографический порядок",
+  "config_fingerprint_match": true,
+  "weights_vs_optimizer": "Загрузка весов (adapter_model.safetensors) возвращает только параметры модели: инференс возможен, но обучение начнётся с шага 0 — без optimizer.pt (моменты Adam m и v), расписания lr и RNG; cosine-расписание запустится заново с максимума. resume_from_checkpoint через trainer_state.json восстанавливает и веса, и состояние оптимизатора/шедулера/RNG — шаги продолжаются с global_step."
+}

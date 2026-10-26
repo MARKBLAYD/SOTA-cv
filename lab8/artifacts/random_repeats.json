@@ -1,0 +1,34 @@
+{
+  "repeats": {
+    "seed_1042": {
+      "auc": 0.8324,
+      "final_acc": 0.8926
+    },
+    "seed_1043": {
+      "auc": 0.7963,
+      "final_acc": 0.8889
+    },
+    "seed_1044": {
+      "auc": 0.8492,
+      "final_acc": 0.913
+    },
+    "seed_1045": {
+      "auc": 0.8316,
+      "final_acc": 0.9167
+    },
+    "seed_1046": {
+      "auc": 0.8669,
+      "final_acc": 0.9222
+    }
+  },
+  "n_repeats": 5,
+  "final_acc_mean_std": [
+    0.9067,
+    0.0134
+  ],
+  "auc_mean_std": [
+    0.8353,
+    0.0234
+  ],
+  "note": "train/test и initial зафиксированы; меняется только генератор выбора"
+}

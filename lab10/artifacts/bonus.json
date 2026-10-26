@@ -1,0 +1,23 @@
+{
+  "hypothesis": "r16 быстрее снижает train-loss, но не улучшает EM вне тренировочного домена; ответы почти совпадают",
+  "protocol": {
+    "split": "general_test",
+    "n": 64,
+    "decoding": "greedy",
+    "max_new_tokens": 16,
+    "note": "сплит не использовался в основном сравнении и для выбора гипотезы"
+  },
+  "em_r8": 0.8906,
+  "em_r16": 0.9062,
+  "delta_em": 0.0156,
+  "verdict_quality": "в пределах шума",
+  "answer_flips": 1,
+  "flip_ids": [
+    "scienceqa-test-23"
+  ],
+  "identical_answer_rate": 0.9844,
+  "final_loss": {
+    "r8": 0.15203503903467208,
+    "r16": 0.12139820621814579
+  }
+}

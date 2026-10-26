@@ -1,0 +1,13 @@
+{
+  "auc_by_budget": {
+    "random": 0.8795,
+    "entropy": 0.8448,
+    "kcenter": 0.8376
+  },
+  "final_accuracy": {
+    "random": 0.913,
+    "entropy": 0.8981,
+    "kcenter": 0.9056
+  },
+  "definition": "AUC = интеграл accuracy по числу открытых меток, нормированный на длину бюджета"
+}

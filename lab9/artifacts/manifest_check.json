@@ -1,0 +1,16 @@
+{
+  "manifest": "C:\\Users\\eric1\\Desktop\\SOTA\\lab9\\data\\lab9\\manifest.jsonl",
+  "fast": false,
+  "counts": {
+    "train": 512,
+    "validation": 64,
+    "id_test": 64,
+    "ood_test": 64,
+    "general_test": 64
+  },
+  "unique_images": 768,
+  "duplicate_images": 0,
+  "images_in_two_splits": 0,
+  "license": "CC-BY-SA-4.0 (dataset card); MIT (код lupantech/ScienceQA)",
+  "source": "https://huggingface.co/datasets/derek-thomas/ScienceQA @ f18b0a70359ebfb41f658fd564208d0355b013f4"
+}

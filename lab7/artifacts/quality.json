@@ -1,0 +1,286 @@
+{
+  "split": "test",
+  "n_test": 50,
+  "n_valid": 49,
+  "coverage": 0.98,
+  "accuracy": 0.735,
+  "cohen_kappa": 0.705,
+  "per_class": {
+    "airplane": {
+      "precision": 0.714,
+      "recall": 1.0,
+      "f1": 0.833,
+      "support": 5
+    },
+    "automobile": {
+      "precision": 0.625,
+      "recall": 1.0,
+      "f1": 0.769,
+      "support": 5
+    },
+    "bird": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8,
+      "support": 5
+    },
+    "cat": {
+      "precision": 0.667,
+      "recall": 0.4,
+      "f1": 0.5,
+      "support": 5
+    },
+    "deer": {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.571,
+      "support": 5
+    },
+    "dog": {
+      "precision": 0.444,
+      "recall": 0.8,
+      "f1": 0.571,
+      "support": 5
+    },
+    "frog": {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.571,
+      "support": 5
+    },
+    "horse": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 5
+    },
+    "ship": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.857,
+      "support": 4
+    },
+    "truck": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8,
+      "support": 5
+    }
+  },
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "confusion_classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "n_errors": 13,
+  "errors": [
+    {
+      "id": "test_8493",
+      "gt": "bird",
+      "pred": "airplane",
+      "uncertain": false
+    },
+    {
+      "id": "test_1166",
+      "gt": "cat",
+      "pred": "dog",
+      "uncertain": false
+    },
+    {
+      "id": "test_5529",
+      "gt": "cat",
+      "pred": "airplane",
+      "uncertain": false
+    },
+    {
+      "id": "test_7002",
+      "gt": "cat",
+      "pred": "dog",
+      "uncertain": false
+    },
+    {
+      "id": "test_4350",
+      "gt": "deer",
+      "pred": "automobile",
+      "uncertain": false
+    },
+    {
+      "id": "test_5172",
+      "gt": "deer",
+      "pred": "dog",
+      "uncertain": false
+    },
+    {
+      "id": "test_6265",
+      "gt": "deer",
+      "pred": "dog",
+      "uncertain": false
+    },
+    {
+      "id": "test_1908",
+      "gt": "dog",
+      "pred": "cat",
+      "uncertain": false
+    },
+    {
+      "id": "test_3455",
+      "gt": "frog",
+      "pred": "dog",
+      "uncertain": false
+    },
+    {
+      "id": "test_4941",
+      "gt": "frog",
+      "pred": "bird",
+      "uncertain": false
+    },
+    {
+      "id": "test_8547",
+      "gt": "frog",
+      "pred": "truck",
+      "uncertain": false
+    },
+    {
+      "id": "test_6490",
+      "gt": "ship",
+      "pred": "automobile",
+      "uncertain": false
+    },
+    {
+      "id": "test_960",
+      "gt": "truck",
+      "pred": "automobile",
+      "uncertain": false
+    }
+  ],
+  "note": "учтены только валидные ответы (парсинг + схема пройдены)"
+}

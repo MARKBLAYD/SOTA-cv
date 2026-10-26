@@ -1,0 +1,26 @@
+{
+  "r8_a16": {
+    "id_test": {
+      "em": 0.8281,
+      "format_rate": 1.0,
+      "n": 64
+    },
+    "ood_test": {
+      "em": 0.625,
+      "format_rate": 1.0,
+      "n": 64
+    }
+  },
+  "r16_a16": {
+    "id_test": {
+      "em": 0.7969,
+      "format_rate": 1.0,
+      "n": 64
+    },
+    "ood_test": {
+      "em": 0.6719,
+      "format_rate": 1.0,
+      "n": 64
+    }
+  }
+}

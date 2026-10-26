@@ -1,0 +1,14 @@
+{
+  "classifier": "LogisticRegression on frozen ResNet18 features",
+  "n_train_used": 49,
+  "n_train_dropped_invalid_vlm": 1,
+  "n_test": 50,
+  "accuracy_manual_labels": 0.5,
+  "accuracy_vlm_labels": 0.42,
+  "delta": -0.08,
+  "train_label_agreement_vlm_vs_manual": 0.755,
+  "human_audit_complete": true,
+  "n_audited": 23,
+  "n_audit": 23,
+  "note": "оба классификатора обучены на одних изображениях; отличаются только метки"
+}

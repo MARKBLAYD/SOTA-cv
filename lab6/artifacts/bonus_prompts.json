@@ -1,0 +1,28 @@
+[
+  {
+    "id": "vqa-1",
+    "category": "open_vqa",
+    "original_question": "What type of camera is this?",
+    "original_answer": "This is a Polaroid Spectra System SE camera.",
+    "alternative_prompt": "Answer with a single short phrase. What type of camera is this?",
+    "alternative_answer": "Polaroid Spectra System SE",
+    "reference": "This is a Polaroid Spectra System SE camera. It's a vintage instant camera known for its unique rectangular design and ability to produce instant photographs. The Spectra System was a line of cameras introduced by Polaroid in the mid-1980s, featuring a wider image format compared to traditional square Polaroid photos. This particular model, the SE (Special Edition), was likely a variant with some additional features or improvements over the standard Spectra System.",
+    "original_contains_reference": false,
+    "alternative_contains_reference": false,
+    "latency_s": 16.871,
+    "comment": "Ответы различаются: формулировка вопроса изменила ответ модели (комментарий можно дополнить своими наблюдениями)"
+  },
+  {
+    "id": "ocr-0",
+    "category": "document_qa",
+    "original_question": "What is the total estimated cost?",
+    "original_answer": "The total estimated cost is $2,500.",
+    "alternative_prompt": "Use only text visible in the document image. What is the total estimated cost?",
+    "alternative_answer": "$2,500.",
+    "reference": "$2,500",
+    "original_contains_reference": true,
+    "alternative_contains_reference": true,
+    "latency_s": 12.601,
+    "comment": "Ответы различаются: формулировка вопроса изменила ответ модели (комментарий можно дополнить своими наблюдениями)"
+  }
+]

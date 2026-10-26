@@ -1,0 +1,27 @@
+{
+  "mode": "full",
+  "n_examples": 20,
+  "by_category": {
+    "caption": {
+      "n": 5,
+      "em": 0.0,
+      "f1": 0.0
+    },
+    "open_vqa": {
+      "n": 5,
+      "em": 0.0,
+      "f1": 0.1145
+    },
+    "document_qa": {
+      "n": 5,
+      "em": 0.4,
+      "f1": 0.6164
+    },
+    "object_count_json": {
+      "n": 5,
+      "em": 0.2,
+      "f1": 0.2
+    }
+  },
+  "note": "EM/F1 после нормализации (регистр, пунктуация, артикли); для object_count_json: em = точное совпадение JSON, f1 = совпадение count; caption исключён — ручная оценка"
+}

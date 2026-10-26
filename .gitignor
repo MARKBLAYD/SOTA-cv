@@ -1,0 +1,30 @@
+# --- веса моделей: большие, в git не кладём ---
+*.safetensors
+*.bin
+*.pth
+*.onnx
+*.gguf
+*.ckpt
+
+# --- датасеты и картинки данных ---
+data/
+datasets/
+hf_cache/
+.cache/
+
+# --- мусор от Python и Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- логи и эксперименты ---
+wandb/
+runs/
+logs/
+*.log
+
+# --- системный мусор ---
+Thumbs.db
+.DS_Store

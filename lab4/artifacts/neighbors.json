@@ -1,0 +1,312 @@
+[
+    {
+        "test_idx": 0,
+        "query_label": 3,
+        "neighbors": [
+            {
+                "train_idx": 30813,
+                "label": 6,
+                "similarity": 0.7155671119689941
+            },
+            {
+                "train_idx": 8808,
+                "label": 3,
+                "similarity": 0.7056851387023926
+            },
+            {
+                "train_idx": 33633,
+                "label": 3,
+                "similarity": 0.6644717454910278
+            },
+            {
+                "train_idx": 34541,
+                "label": 5,
+                "similarity": 0.664077877998352
+            },
+            {
+                "train_idx": 26126,
+                "label": 3,
+                "similarity": 0.6563466191291809
+            }
+        ]
+    },
+    {
+        "test_idx": 1,
+        "query_label": 8,
+        "neighbors": [
+            {
+                "train_idx": 7737,
+                "label": 8,
+                "similarity": 0.7020914554595947
+            },
+            {
+                "train_idx": 7535,
+                "label": 8,
+                "similarity": 0.688169002532959
+            },
+            {
+                "train_idx": 13808,
+                "label": 8,
+                "similarity": 0.6828367710113525
+            },
+            {
+                "train_idx": 24481,
+                "label": 8,
+                "similarity": 0.6807689666748047
+            },
+            {
+                "train_idx": 38724,
+                "label": 8,
+                "similarity": 0.6758521795272827
+            }
+        ]
+    },
+    {
+        "test_idx": 2,
+        "query_label": 8,
+        "neighbors": [
+            {
+                "train_idx": 45045,
+                "label": 8,
+                "similarity": 0.7978748083114624
+            },
+            {
+                "train_idx": 21840,
+                "label": 8,
+                "similarity": 0.7801265120506287
+            },
+            {
+                "train_idx": 32651,
+                "label": 8,
+                "similarity": 0.7478458285331726
+            },
+            {
+                "train_idx": 29437,
+                "label": 8,
+                "similarity": 0.7475433349609375
+            },
+            {
+                "train_idx": 42449,
+                "label": 8,
+                "similarity": 0.7367841005325317
+            }
+        ]
+    },
+    {
+        "test_idx": 3,
+        "query_label": 0,
+        "neighbors": [
+            {
+                "train_idx": 37867,
+                "label": 0,
+                "similarity": 0.8115471601486206
+            },
+            {
+                "train_idx": 21649,
+                "label": 4,
+                "similarity": 0.5690732598304749
+            },
+            {
+                "train_idx": 49671,
+                "label": 0,
+                "similarity": 0.5668612122535706
+            },
+            {
+                "train_idx": 13180,
+                "label": 6,
+                "similarity": 0.5396294593811035
+            },
+            {
+                "train_idx": 7043,
+                "label": 4,
+                "similarity": 0.5396079421043396
+            }
+        ]
+    },
+    {
+        "test_idx": 4,
+        "query_label": 6,
+        "neighbors": [
+            {
+                "train_idx": 2324,
+                "label": 3,
+                "similarity": 0.6410752534866333
+            },
+            {
+                "train_idx": 47513,
+                "label": 6,
+                "similarity": 0.6189174652099609
+            },
+            {
+                "train_idx": 38865,
+                "label": 6,
+                "similarity": 0.6131107807159424
+            },
+            {
+                "train_idx": 49406,
+                "label": 6,
+                "similarity": 0.6090461611747742
+            },
+            {
+                "train_idx": 18904,
+                "label": 6,
+                "similarity": 0.6014657020568848
+            }
+        ]
+    },
+    {
+        "test_idx": 5,
+        "query_label": 6,
+        "neighbors": [
+            {
+                "train_idx": 33791,
+                "label": 6,
+                "similarity": 0.5862468481063843
+            },
+            {
+                "train_idx": 17234,
+                "label": 6,
+                "similarity": 0.566063642501831
+            },
+            {
+                "train_idx": 27765,
+                "label": 6,
+                "similarity": 0.5612370371818542
+            },
+            {
+                "train_idx": 48841,
+                "label": 6,
+                "similarity": 0.5588758587837219
+            },
+            {
+                "train_idx": 22968,
+                "label": 6,
+                "similarity": 0.5491434335708618
+            }
+        ]
+    },
+    {
+        "test_idx": 6,
+        "query_label": 1,
+        "neighbors": [
+            {
+                "train_idx": 38872,
+                "label": 1,
+                "similarity": 0.7747385501861572
+            },
+            {
+                "train_idx": 26576,
+                "label": 1,
+                "similarity": 0.7188920974731445
+            },
+            {
+                "train_idx": 12340,
+                "label": 1,
+                "similarity": 0.7100626826286316
+            },
+            {
+                "train_idx": 49314,
+                "label": 1,
+                "similarity": 0.7067145109176636
+            },
+            {
+                "train_idx": 4664,
+                "label": 1,
+                "similarity": 0.7025532722473145
+            }
+        ]
+    },
+    {
+        "test_idx": 7,
+        "query_label": 6,
+        "neighbors": [
+            {
+                "train_idx": 40133,
+                "label": 2,
+                "similarity": 0.5448554754257202
+            },
+            {
+                "train_idx": 6486,
+                "label": 6,
+                "similarity": 0.5418133735656738
+            },
+            {
+                "train_idx": 28663,
+                "label": 6,
+                "similarity": 0.5097380876541138
+            },
+            {
+                "train_idx": 16675,
+                "label": 6,
+                "similarity": 0.4933825135231018
+            },
+            {
+                "train_idx": 21047,
+                "label": 6,
+                "similarity": 0.4932473599910736
+            }
+        ]
+    },
+    {
+        "test_idx": 8,
+        "query_label": 3,
+        "neighbors": [
+            {
+                "train_idx": 19387,
+                "label": 3,
+                "similarity": 0.6671352982521057
+            },
+            {
+                "train_idx": 49602,
+                "label": 3,
+                "similarity": 0.6344925165176392
+            },
+            {
+                "train_idx": 36745,
+                "label": 3,
+                "similarity": 0.6334233283996582
+            },
+            {
+                "train_idx": 15397,
+                "label": 3,
+                "similarity": 0.6203609704971313
+            },
+            {
+                "train_idx": 2198,
+                "label": 3,
+                "similarity": 0.6158664226531982
+            }
+        ]
+    },
+    {
+        "test_idx": 9,
+        "query_label": 1,
+        "neighbors": [
+            {
+                "train_idx": 33646,
+                "label": 1,
+                "similarity": 0.6980404853820801
+            },
+            {
+                "train_idx": 7289,
+                "label": 1,
+                "similarity": 0.6940883994102478
+            },
+            {
+                "train_idx": 17460,
+                "label": 1,
+                "similarity": 0.6839965581893921
+            },
+            {
+                "train_idx": 8094,
+                "label": 1,
+                "similarity": 0.6669440865516663
+            },
+            {
+                "train_idx": 11546,
+                "label": 1,
+                "similarity": 0.6647918820381165
+            }
+        ]
+    }
+]

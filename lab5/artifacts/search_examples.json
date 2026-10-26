@@ -1,0 +1,58 @@
+{
+    "best": {
+        "class": "airplane",
+        "precision_at_10": 1.0,
+        "top10_test_idx": [
+            297,
+            1310,
+            257,
+            1652,
+            527,
+            116,
+            763,
+            1343,
+            1078,
+            524
+        ],
+        "top10_labels": [
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane"
+        ]
+    },
+    "worst": {
+        "class": "airplane",
+        "precision_at_10": 1.0,
+        "top10_test_idx": [
+            297,
+            1310,
+            257,
+            1652,
+            527,
+            116,
+            763,
+            1343,
+            1078,
+            524
+        ],
+        "top10_labels": [
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane",
+            "airplane"
+        ]
+    }
+}

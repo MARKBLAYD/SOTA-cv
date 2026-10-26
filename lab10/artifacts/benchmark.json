@@ -1,0 +1,26 @@
+{
+  "hardware": {
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "effective_batch": 16,
+    "seed": 42
+  },
+  "r8_a16": {
+    "optimizer_steps_done": 100,
+    "final_loss": 0.15203503903467208,
+    "wall_seconds": 6997.2,
+    "seconds_per_optimizer_step": 69.97,
+    "peak_vram_gb": 3.18,
+    "throughput_examples_per_s": 0.23,
+    "processed_examples": 1600
+  },
+  "r16_a16": {
+    "optimizer_steps_done": 100,
+    "final_loss": 0.12139820621814579,
+    "wall_seconds": 11036.9,
+    "seconds_per_optimizer_step": 110.37,
+    "peak_vram_gb": 3.62,
+    "throughput_examples_per_s": 0.14,
+    "processed_examples": 1600
+  },
+  "note": "одинаковые данные, порядок, шаги и effective batch; отличается только rank/alpha"
+}

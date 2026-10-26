@@ -1,0 +1,17 @@
+[
+    {
+        "fraction": 0.01,
+        "n_labeled": 50,
+        "test_acc": 0.8545
+    },
+    {
+        "fraction": 0.1,
+        "n_labeled": 500,
+        "test_acc": 0.9335
+    },
+    {
+        "fraction": 1.0,
+        "n_labeled": 4945,
+        "test_acc": 0.9545
+    }
+]

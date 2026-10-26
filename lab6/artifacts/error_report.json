@@ -1,0 +1,13 @@
+{
+  "n_total": 20,
+  "n_reviewed": 20,
+  "n_pending": 0,
+  "n_incorrect": 10,
+  "error_type_counts": {
+    "hallucination": 5,
+    "other": 1,
+    "counting": 4
+  },
+  "complete": true,
+  "note": "итоговая ручная типология"
+}
