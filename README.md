@@ -12,21 +12,3 @@ fmi-ml-courses
 11	Текущая лаба	🚧 в работе
 Как воспроизвести
 conda activate fmi-cvjupyter lab
-
----
-
-## Шаг 5. Первый коммит и выкладка на GitHub (5 минут)
-
-Выполняй построчно в PowerShell (в папке курса). Замени `<твой_юзернейм>` на реальный.
-
-```powershell
-# 1. Превратить папку в репозиторий (завести историю)
-git init
-
-# 2. Сложить ВСЁ в «корзину» для снимка (кроме того, что в .gitignore)
-git add .
-
-# 3. ПРОВЕРКА: топ-10 самых больших файлов, попавших в снимок
-git ls-files | ForEach-Object { Get-Item $_ -ErrorAction SilentlyContinue } |
-  Sort-Object Length -Descending | Select-Object -First 10 Name, @{n='MB';e={[math]::Round($_.Length/1MB,1)}}
-```
