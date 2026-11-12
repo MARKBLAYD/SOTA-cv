@@ -1,0 +1,80 @@
+[
+  {
+    "checkpoint": "baseline",
+    "step": null,
+    "adapter_dir": null,
+    "config": null
+  },
+  {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200,
+    "adapter_dir": "artifacts\\lab13\\ckpt\\r8_lr1e-4\\step200",
+    "config": {
+      "name": "r8_lr1e-4",
+      "rank": 8,
+      "lr": 0.0001,
+      "alpha": 8
+    },
+    "ckpt_present": true
+  },
+  {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400,
+    "adapter_dir": "artifacts\\lab13\\ckpt\\r8_lr1e-4\\step400",
+    "config": {
+      "name": "r8_lr1e-4",
+      "rank": 8,
+      "lr": 0.0001,
+      "alpha": 8
+    },
+    "ckpt_present": true
+  },
+  {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200,
+    "adapter_dir": "artifacts\\lab13\\ckpt\\r16_lr1e-4\\step200",
+    "config": {
+      "name": "r16_lr1e-4",
+      "rank": 16,
+      "lr": 0.0001,
+      "alpha": 16
+    },
+    "ckpt_present": true
+  },
+  {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400,
+    "adapter_dir": "artifacts\\lab13\\ckpt\\r16_lr1e-4\\step400",
+    "config": {
+      "name": "r16_lr1e-4",
+      "rank": 16,
+      "lr": 0.0001,
+      "alpha": 16
+    },
+    "ckpt_present": true
+  },
+  {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200,
+    "adapter_dir": "artifacts\\lab13\\ckpt\\r8_lr5e-4\\step200",
+    "config": {
+      "name": "r8_lr5e-4",
+      "rank": 8,
+      "lr": 0.0005,
+      "alpha": 8
+    },
+    "ckpt_present": true
+  },
+  {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400,
+    "adapter_dir": "artifacts\\lab13\\ckpt\\r8_lr5e-4\\step400",
+    "config": {
+      "name": "r8_lr5e-4",
+      "rank": 8,
+      "lr": 0.0005,
+      "alpha": 8
+    },
+    "ckpt_present": true
+  }
+]

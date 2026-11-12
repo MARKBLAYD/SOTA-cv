@@ -1,0 +1,57 @@
+{
+  "points": [
+    {
+      "name": "ddpm-s500",
+      "time_s": 17.9,
+      "agreement": 0.9875
+    },
+    {
+      "name": "ddim-s50",
+      "time_s": 1.8,
+      "agreement": 1.0
+    },
+    {
+      "name": "dspp-s50",
+      "time_s": 1.9,
+      "agreement": 1.0
+    },
+    {
+      "name": "ddim-s20",
+      "time_s": 0.7,
+      "agreement": 1.0
+    },
+    {
+      "name": "dspp-s20",
+      "time_s": 0.7,
+      "agreement": 1.0
+    },
+    {
+      "name": "ddim-s10",
+      "time_s": 0.4,
+      "agreement": 1.0
+    },
+    {
+      "name": "dspp-s10",
+      "time_s": 0.4,
+      "agreement": 1.0
+    },
+    {
+      "name": "ddim-s5",
+      "time_s": 0.2,
+      "agreement": 1.0
+    },
+    {
+      "name": "dspp-s5",
+      "time_s": 0.2,
+      "agreement": 0.9625
+    }
+  ],
+  "pareto_front": [
+    {
+      "name": "ddim-s5",
+      "time_s": 0.2,
+      "agreement": 1.0
+    }
+  ],
+  "rule": "A доминирует B при time_A<=time_B, agreement_A>=agreement_B и хотя бы одном строгом неравенстве"
+}

@@ -1,0 +1,12 @@
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a photo of sks butterfly", "seed": 1234, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p00_seed1234.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a photo of sks butterfly", "seed": 5678, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p00_seed5678.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a photo of sks butterfly on a flower", "seed": 1234, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p01_seed1234.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a photo of sks butterfly on a flower", "seed": 5678, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p01_seed5678.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a close-up photo of sks butterfly with open wings", "seed": 1234, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p02_seed1234.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a close-up photo of sks butterfly with open wings", "seed": 5678, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p02_seed5678.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a photo of two sks butterflies sitting on a leaf", "seed": 1234, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p03_seed1234.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a photo of two sks butterflies sitting on a leaf", "seed": 5678, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p03_seed5678.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a photo of sks butterfly in a summer garden", "seed": 1234, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p04_seed1234.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a photo of sks butterfly in a summer garden", "seed": 5678, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p04_seed5678.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a watercolor painting of sks butterfly on white background", "seed": 1234, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p05_seed1234.png"}
+{"checkpoint": "r8_lr1e-4_dropout50", "step": 400, "prompt": "a watercolor painting of sks butterfly on white background", "seed": 5678, "path": "artifacts\\lab13\\gen\\full_r8_lr1e-4_dropout50\\p05_seed5678.png"}

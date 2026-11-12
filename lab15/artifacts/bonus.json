@@ -1,0 +1,127 @@
+{
+  "hypothesis": "без t на входе MLP поле усредняется по времени: покрытие мод падает, MMD растёт при том же бюджете (данные/seed/шум/ширина сети без изменений)",
+  "k_grid": [
+    1,
+    5,
+    10,
+    100
+  ],
+  "rows": [
+    {
+      "sampler": "rf_notime@1",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 487,
+      "max_mode_count": 568,
+      "mean_dist_to_center": 0.9094,
+      "mmd2": 0.000408,
+      "mean_nn_to_test": 0.5786,
+      "time_s": 0.0
+    },
+    {
+      "sampler": "rf_notime@5",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 487,
+      "max_mode_count": 585,
+      "mean_dist_to_center": 0.6776,
+      "mmd2": 0.000896,
+      "mean_nn_to_test": 0.3589,
+      "time_s": 0.0
+    },
+    {
+      "sampler": "rf_notime@10",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 485,
+      "max_mode_count": 588,
+      "mean_dist_to_center": 0.6642,
+      "mmd2": 0.000824,
+      "mean_nn_to_test": 0.3472,
+      "time_s": 0.0
+    },
+    {
+      "sampler": "rf_notime@100",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 482,
+      "max_mode_count": 591,
+      "mean_dist_to_center": 0.6519,
+      "mmd2": 0.000763,
+      "mean_nn_to_test": 0.3366,
+      "time_s": 0.0
+    }
+  ],
+  "base_rows": [
+    {
+      "sampler": "rf_euler@1",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 378,
+      "max_mode_count": 691,
+      "mean_dist_to_center": 1.935,
+      "mmd2": 0.083989,
+      "mean_nn_to_test": 1.6044,
+      "time_s": 0.02
+    },
+    {
+      "sampler": "rf_euler@2",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 370,
+      "max_mode_count": 656,
+      "mean_dist_to_center": 1.0264,
+      "mmd2": 0.029407,
+      "mean_nn_to_test": 0.7005,
+      "time_s": 0.003
+    },
+    {
+      "sampler": "rf_euler@5",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 446,
+      "max_mode_count": 611,
+      "mean_dist_to_center": 0.3094,
+      "mmd2": 0.000886,
+      "mean_nn_to_test": 0.0925,
+      "time_s": 0.009
+    },
+    {
+      "sampler": "rf_euler@10",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 429,
+      "max_mode_count": 613,
+      "mean_dist_to_center": 0.2409,
+      "mmd2": 0.000318,
+      "mean_nn_to_test": 0.0531,
+      "time_s": 0.017
+    },
+    {
+      "sampler": "rf_euler@25",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 419,
+      "max_mode_count": 613,
+      "mean_dist_to_center": 0.2118,
+      "mmd2": 0.000101,
+      "mean_nn_to_test": 0.0389,
+      "time_s": 0.042
+    },
+    {
+      "sampler": "rf_euler@100",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 411,
+      "max_mode_count": 610,
+      "mean_dist_to_center": 0.1995,
+      "mmd2": 2.7e-05,
+      "mean_nn_to_test": 0.0332,
+      "time_s": 0.155
+    }
+  ],
+  "final_loss_nt": 2.924955,
+  "train_time_s": 6.1,
+  "confirmed": true,
+  "note": "test использован только для итогового сравнения, выбор настройки по test не проводился"
+}

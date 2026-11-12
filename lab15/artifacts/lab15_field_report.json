@@ -1,0 +1,15 @@
+{
+  "traj_starts": 12,
+  "traj_steps": 100,
+  "grid_points": 441,
+  "t_values": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "base_coverage_traj_subset": 1.0,
+  "ang_coverage_traj_subset": 1.0,
+  "same_mode_share": 0.9167,
+  "mean_endpoint_shift": 0.2088,
+  "note": "стартовые точки общие; расхождение финалов показывает влияние coupling на поле, а не на маргинальное распределение"
+}

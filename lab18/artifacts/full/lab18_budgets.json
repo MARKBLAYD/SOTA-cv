@@ -1,0 +1,91 @@
+{
+  "runs": [
+    {
+      "sampler": "ddpm",
+      "steps": 500,
+      "agreement": 0.9875,
+      "confidence": 0.9908,
+      "diversity_intra_l2": 8.002,
+      "time_s": 18.0,
+      "nfe": 1000
+    },
+    {
+      "sampler": "ddim",
+      "steps": 50,
+      "agreement": 1.0,
+      "confidence": 0.9996,
+      "diversity_intra_l2": 8.123,
+      "time_s": 1.8,
+      "nfe": 100
+    },
+    {
+      "sampler": "dspp",
+      "steps": 50,
+      "agreement": 1.0,
+      "confidence": 0.9995,
+      "diversity_intra_l2": 8.307,
+      "time_s": 1.8,
+      "nfe": 100
+    },
+    {
+      "sampler": "ddim",
+      "steps": 20,
+      "agreement": 1.0,
+      "confidence": 0.9997,
+      "diversity_intra_l2": 7.899,
+      "time_s": 0.7,
+      "nfe": 40
+    },
+    {
+      "sampler": "dspp",
+      "steps": 20,
+      "agreement": 1.0,
+      "confidence": 0.9994,
+      "diversity_intra_l2": 8.417,
+      "time_s": 0.7,
+      "nfe": 40
+    },
+    {
+      "sampler": "ddim",
+      "steps": 10,
+      "agreement": 1.0,
+      "confidence": 0.9998,
+      "diversity_intra_l2": 7.537,
+      "time_s": 0.4,
+      "nfe": 20
+    },
+    {
+      "sampler": "dspp",
+      "steps": 10,
+      "agreement": 1.0,
+      "confidence": 0.999,
+      "diversity_intra_l2": 8.511,
+      "time_s": 0.4,
+      "nfe": 20
+    },
+    {
+      "sampler": "ddim",
+      "steps": 5,
+      "agreement": 1.0,
+      "confidence": 0.9998,
+      "diversity_intra_l2": 6.735,
+      "time_s": 0.2,
+      "nfe": 10
+    },
+    {
+      "sampler": "dspp",
+      "steps": 5,
+      "agreement": 0.9625,
+      "confidence": 0.9579,
+      "diversity_intra_l2": 8.663,
+      "time_s": 0.2,
+      "nfe": 10
+    }
+  ],
+  "guidance_w": 3.0,
+  "x_T_seed": 92,
+  "sampling_seed": 93,
+  "ddpm_steps": 500,
+  "images": 80,
+  "note": "NFE учитывает conditional и unconditional вызовы отдельно (w=3 -> 2 вызова/шаг); у всех прогонов общий x_T и общий seed пошагового шума"
+}

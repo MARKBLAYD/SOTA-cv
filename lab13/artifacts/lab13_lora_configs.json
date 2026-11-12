@@ -1,0 +1,55 @@
+{
+  "protocol": {
+    "mode": "full",
+    "seed": 42,
+    "resolution": 512,
+    "batch": 1,
+    "n_updates": 400,
+    "ckpt_steps": [
+      200,
+      400
+    ],
+    "lora_targets": [
+      "to_q",
+      "to_k",
+      "to_v",
+      "to_out.0"
+    ],
+    "lora_dropout": 0.0,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "lr_schedule": "constant",
+    "precision": "fp16-основа + fp32-LoRA (без GradScaler)",
+    "gradient_checkpointing": true,
+    "attention_slicing": true,
+    "uncond_dropout_train": 0.0,
+    "sd_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "clip_model": "openai/clip-vit-base-patch32",
+    "gpu": "NVIDIA GeForce GTX 1050 Ti"
+  },
+  "configs": [
+    {
+      "name": "r8_lr1e-4",
+      "rank": 8,
+      "lr": 0.0001,
+      "alpha": 8
+    },
+    {
+      "name": "r16_lr1e-4",
+      "rank": 16,
+      "lr": 0.0001,
+      "alpha": 16
+    },
+    {
+      "name": "r8_lr5e-4",
+      "rank": 8,
+      "lr": 0.0005,
+      "alpha": 8
+    }
+  ]
+}

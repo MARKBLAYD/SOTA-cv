@@ -1,0 +1,31 @@
+{
+  "n_form": 64,
+  "n_judged": 64,
+  "n_pending": 0,
+  "n_ties": 55,
+  "denominators": {
+    "win_rate": 9,
+    "hallucination_and_format": 64
+  },
+  "em_objective": {
+    "foundation": 0.8594,
+    "reference": 0.8281,
+    "aligned": 0.8438
+  },
+  "win_rate_manual": {
+    "foundation": 0.5556,
+    "reference": 0.1111,
+    "aligned": 0.3333
+  },
+  "hallucination_rate_manual": {
+    "foundation": 0.0156,
+    "reference": 0.0,
+    "aligned": 0.0
+  },
+  "format_ok_manual": {
+    "foundation": 1.0,
+    "reference": 1.0,
+    "aligned": 1.0
+  },
+  "limitations": "предпочтения label-derived (правильная буква против соседней): проверяется только предпочтение правильного варианта, НЕ безопасность или универсальная полезность; форма заполнена полностью"
+}

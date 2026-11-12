@@ -1,0 +1,43 @@
+{
+  "mode": "full",
+  "resolution": 512,
+  "steps": 30,
+  "guidance": 7.5,
+  "negative_prompt": "",
+  "prompts": [
+    "a photo of sks butterfly",
+    "a photo of sks butterfly on a flower",
+    "a close-up photo of sks butterfly with open wings",
+    "a photo of two sks butterflies sitting on a leaf",
+    "a photo of sks butterfly in a summer garden",
+    "a watercolor painting of sks butterfly on white background"
+  ],
+  "seeds": [
+    1234,
+    5678
+  ],
+  "n_train_captions": 28,
+  "novel_words_vs_train": {
+    "a photo of sks butterfly": [],
+    "a photo of sks butterfly on a flower": [],
+    "a close-up photo of sks butterfly with open wings": [
+      "close-up",
+      "open"
+    ],
+    "a photo of two sks butterflies sitting on a leaf": [
+      "butterflies",
+      "sitting",
+      "two"
+    ],
+    "a photo of sks butterfly in a summer garden": [
+      "garden",
+      "summer"
+    ],
+    "a watercolor painting of sks butterfly on white background": [
+      "background",
+      "painting",
+      "watercolor"
+    ]
+  },
+  "leak_check": "exact-match excluded; для прозрачности — слова промптов, которых нет ни в одной train-подписи (новые условия)"
+}

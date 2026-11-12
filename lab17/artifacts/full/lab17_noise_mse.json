@@ -1,0 +1,45 @@
+{
+  "T": 500,
+  "eval_images": 256,
+  "timesteps": [
+    0,
+    50,
+    125,
+    250,
+    375,
+    499
+  ],
+  "table": {
+    "0": {
+      "mse_cond": 0.170448,
+      "mse_uncond": 0.171578,
+      "gap_uncond_minus_cond": 0.00113
+    },
+    "50": {
+      "mse_cond": 0.047106,
+      "mse_uncond": 0.047839,
+      "gap_uncond_minus_cond": 0.000733
+    },
+    "125": {
+      "mse_cond": 0.026213,
+      "mse_uncond": 0.028293,
+      "gap_uncond_minus_cond": 0.00208
+    },
+    "250": {
+      "mse_cond": 0.012105,
+      "mse_uncond": 0.015567,
+      "gap_uncond_minus_cond": 0.003462
+    },
+    "375": {
+      "mse_cond": 0.003003,
+      "mse_uncond": 0.003748,
+      "gap_uncond_minus_cond": 0.000746
+    },
+    "499": {
+      "mse_cond": 0.000566,
+      "mse_uncond": 0.000633,
+      "gap_uncond_minus_cond": 6.7e-05
+    }
+  },
+  "note": "условие помогает при малых/средних t (ниже MSE условной ветви); при t -> T обе стремятся к 1: x_t почти чистый шум"
+}

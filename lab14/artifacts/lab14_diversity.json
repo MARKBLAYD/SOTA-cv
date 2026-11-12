@@ -1,0 +1,260 @@
+{
+  "label0/base": {
+    "mean_l2": 13.2679,
+    "mean_cosine_dist": 0.3017,
+    "n_pairs": 190
+  },
+  "label0/s05_cfg30": {
+    "mean_l2": 10.3764,
+    "mean_cosine_dist": 0.2015,
+    "n_pairs": 190
+  },
+  "label0/s05_cfg75": {
+    "mean_l2": 11.8207,
+    "mean_cosine_dist": 0.245,
+    "n_pairs": 190
+  },
+  "label0/s10_cfg30": {
+    "mean_l2": 8.4954,
+    "mean_cosine_dist": 0.1411,
+    "n_pairs": 190
+  },
+  "label0/s10_cfg75": {
+    "mean_l2": 8.9223,
+    "mean_cosine_dist": 0.1489,
+    "n_pairs": 190
+  },
+  "label1/base": {
+    "mean_l2": 13.151,
+    "mean_cosine_dist": 0.3099,
+    "n_pairs": 190
+  },
+  "label1/s05_cfg30": {
+    "mean_l2": 10.3762,
+    "mean_cosine_dist": 0.2249,
+    "n_pairs": 190
+  },
+  "label1/s05_cfg75": {
+    "mean_l2": 10.5865,
+    "mean_cosine_dist": 0.2332,
+    "n_pairs": 190
+  },
+  "label1/s10_cfg30": {
+    "mean_l2": 8.3401,
+    "mean_cosine_dist": 0.1427,
+    "n_pairs": 190
+  },
+  "label1/s10_cfg75": {
+    "mean_l2": 7.9649,
+    "mean_cosine_dist": 0.1278,
+    "n_pairs": 190
+  },
+  "label2/base": {
+    "mean_l2": 13.4878,
+    "mean_cosine_dist": 0.3435,
+    "n_pairs": 190
+  },
+  "label2/s05_cfg30": {
+    "mean_l2": 11.1793,
+    "mean_cosine_dist": 0.2839,
+    "n_pairs": 190
+  },
+  "label2/s05_cfg75": {
+    "mean_l2": 12.4979,
+    "mean_cosine_dist": 0.3243,
+    "n_pairs": 190
+  },
+  "label2/s10_cfg30": {
+    "mean_l2": 9.1059,
+    "mean_cosine_dist": 0.1954,
+    "n_pairs": 190
+  },
+  "label2/s10_cfg75": {
+    "mean_l2": 9.1302,
+    "mean_cosine_dist": 0.1889,
+    "n_pairs": 190
+  },
+  "label3/base": {
+    "mean_l2": 13.1886,
+    "mean_cosine_dist": 0.3069,
+    "n_pairs": 190
+  },
+  "label3/s05_cfg30": {
+    "mean_l2": 11.6303,
+    "mean_cosine_dist": 0.2718,
+    "n_pairs": 190
+  },
+  "label3/s05_cfg75": {
+    "mean_l2": 12.621,
+    "mean_cosine_dist": 0.2945,
+    "n_pairs": 190
+  },
+  "label3/s10_cfg30": {
+    "mean_l2": 9.6553,
+    "mean_cosine_dist": 0.2117,
+    "n_pairs": 190
+  },
+  "label3/s10_cfg75": {
+    "mean_l2": 9.7849,
+    "mean_cosine_dist": 0.21,
+    "n_pairs": 190
+  },
+  "label4/base": {
+    "mean_l2": 14.0921,
+    "mean_cosine_dist": 0.3653,
+    "n_pairs": 190
+  },
+  "label4/s05_cfg30": {
+    "mean_l2": 11.0162,
+    "mean_cosine_dist": 0.2404,
+    "n_pairs": 190
+  },
+  "label4/s05_cfg75": {
+    "mean_l2": 11.3864,
+    "mean_cosine_dist": 0.25,
+    "n_pairs": 190
+  },
+  "label4/s10_cfg30": {
+    "mean_l2": 9.3713,
+    "mean_cosine_dist": 0.1681,
+    "n_pairs": 190
+  },
+  "label4/s10_cfg75": {
+    "mean_l2": 9.5471,
+    "mean_cosine_dist": 0.1604,
+    "n_pairs": 190
+  },
+  "label5/base": {
+    "mean_l2": 12.5197,
+    "mean_cosine_dist": 0.2861,
+    "n_pairs": 190
+  },
+  "label5/s05_cfg30": {
+    "mean_l2": 11.1268,
+    "mean_cosine_dist": 0.2582,
+    "n_pairs": 190
+  },
+  "label5/s05_cfg75": {
+    "mean_l2": 11.6237,
+    "mean_cosine_dist": 0.2718,
+    "n_pairs": 190
+  },
+  "label5/s10_cfg30": {
+    "mean_l2": 8.7909,
+    "mean_cosine_dist": 0.1746,
+    "n_pairs": 190
+  },
+  "label5/s10_cfg75": {
+    "mean_l2": 8.242,
+    "mean_cosine_dist": 0.1462,
+    "n_pairs": 190
+  },
+  "label6/base": {
+    "mean_l2": 12.5161,
+    "mean_cosine_dist": 0.3023,
+    "n_pairs": 190
+  },
+  "label6/s05_cfg30": {
+    "mean_l2": 10.3666,
+    "mean_cosine_dist": 0.2417,
+    "n_pairs": 190
+  },
+  "label6/s05_cfg75": {
+    "mean_l2": 11.3779,
+    "mean_cosine_dist": 0.2656,
+    "n_pairs": 190
+  },
+  "label6/s10_cfg30": {
+    "mean_l2": 8.7622,
+    "mean_cosine_dist": 0.1875,
+    "n_pairs": 190
+  },
+  "label6/s10_cfg75": {
+    "mean_l2": 8.4502,
+    "mean_cosine_dist": 0.1679,
+    "n_pairs": 190
+  },
+  "label7/base": {
+    "mean_l2": 13.5536,
+    "mean_cosine_dist": 0.3021,
+    "n_pairs": 190
+  },
+  "label7/s05_cfg30": {
+    "mean_l2": 11.2917,
+    "mean_cosine_dist": 0.2348,
+    "n_pairs": 190
+  },
+  "label7/s05_cfg75": {
+    "mean_l2": 11.3676,
+    "mean_cosine_dist": 0.2388,
+    "n_pairs": 190
+  },
+  "label7/s10_cfg30": {
+    "mean_l2": 9.2865,
+    "mean_cosine_dist": 0.1774,
+    "n_pairs": 190
+  },
+  "label7/s10_cfg75": {
+    "mean_l2": 8.994,
+    "mean_cosine_dist": 0.1625,
+    "n_pairs": 190
+  },
+  "label8/base": {
+    "mean_l2": 13.0485,
+    "mean_cosine_dist": 0.3135,
+    "n_pairs": 190
+  },
+  "label8/s05_cfg30": {
+    "mean_l2": 10.5479,
+    "mean_cosine_dist": 0.2134,
+    "n_pairs": 190
+  },
+  "label8/s05_cfg75": {
+    "mean_l2": 11.6171,
+    "mean_cosine_dist": 0.2613,
+    "n_pairs": 190
+  },
+  "label8/s10_cfg30": {
+    "mean_l2": 9.4008,
+    "mean_cosine_dist": 0.1768,
+    "n_pairs": 190
+  },
+  "label8/s10_cfg75": {
+    "mean_l2": 8.6989,
+    "mean_cosine_dist": 0.1428,
+    "n_pairs": 190
+  },
+  "label9/base": {
+    "mean_l2": 11.93,
+    "mean_cosine_dist": 0.2446,
+    "n_pairs": 190
+  },
+  "label9/s05_cfg30": {
+    "mean_l2": 10.2538,
+    "mean_cosine_dist": 0.2133,
+    "n_pairs": 190
+  },
+  "label9/s05_cfg75": {
+    "mean_l2": 10.456,
+    "mean_cosine_dist": 0.2155,
+    "n_pairs": 190
+  },
+  "label9/s10_cfg30": {
+    "mean_l2": 8.8474,
+    "mean_cosine_dist": 0.1618,
+    "n_pairs": 190
+  },
+  "label9/s10_cfg75": {
+    "mean_l2": 8.7584,
+    "mean_cosine_dist": 0.148,
+    "n_pairs": 190
+  },
+  "_per_setting_mean_l2": {
+    "base": 13.0755,
+    "s05_cfg30": 10.8165,
+    "s05_cfg75": 11.5355,
+    "s10_cfg30": 9.0056,
+    "s10_cfg75": 8.8493
+  },
+  "_definition": "средняя попарная L2 (28x28 серый [0,1]) и попарная косинусная дистанция внутри (класс, настройка)"
+}

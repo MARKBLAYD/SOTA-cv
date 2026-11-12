@@ -1,0 +1,16 @@
+{
+  "hypothesis": "синтетика от настройки с худшим edge F1 даёт меньший downstream accuracy, чем от лучшей (один фактор: источник синтетики)",
+  "budget": {
+    "n_steps": 500,
+    "batch": 64,
+    "real_stream": 819,
+    "syn_stream": 930
+  },
+  "table": {
+    "real_only@500": 0.9388,
+    "real+syn[s10_cfg75]@500": 0.9426,
+    "real+syn[s05_cfg30]@500": 0.9433
+  },
+  "confirmed": false,
+  "interpretation": "accuracy: best 0.9426 vs worst 0.9433 (не ниже); гипотеза НЕ подтверждена; test использован один раз для каждой модели, выбор настройки — по edge F1 train-контуров"
+}

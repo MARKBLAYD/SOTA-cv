@@ -1,0 +1,70 @@
+{
+  "runs": [
+    {
+      "name": "teacher-20",
+      "steps": 20,
+      "nfe": 40,
+      "time_s": 0.7,
+      "agreement": 1.0,
+      "confidence": 0.9997,
+      "diversity_intra_l2": 7.899
+    },
+    {
+      "name": "teacher-10",
+      "steps": 10,
+      "nfe": 20,
+      "time_s": 0.4,
+      "agreement": 1.0,
+      "confidence": 0.9998,
+      "diversity_intra_l2": 7.537
+    },
+    {
+      "name": "student-10",
+      "steps": 10,
+      "nfe": 20,
+      "time_s": 0.4,
+      "agreement": 1.0,
+      "confidence": 0.9993,
+      "diversity_intra_l2": 7.778
+    }
+  ],
+  "l2_to_teacher20_mean": {
+    "student10": 10.425,
+    "teacher10": 10.467
+  },
+  "same_noise_labels": true,
+  "x_T_seed": 92,
+  "guidance_w": 3.0,
+  "worst5": [
+    {
+      "index": 75,
+      "target": 9,
+      "predicted": 9,
+      "confidence": 0.9787
+    },
+    {
+      "index": 44,
+      "target": 5,
+      "predicted": 5,
+      "confidence": 0.9878
+    },
+    {
+      "index": 13,
+      "target": 1,
+      "predicted": 1,
+      "confidence": 0.9927
+    },
+    {
+      "index": 43,
+      "target": 5,
+      "predicted": 5,
+      "confidence": 0.9958
+    },
+    {
+      "index": 66,
+      "target": 8,
+      "predicted": 8,
+      "confidence": 0.9979
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "policy_source": "lab9_sft",
+  "lab9_adapter_dir": "..\\lab9\\artifacts\\lab9_adapter",
+  "lora": {
+    "r": 8,
+    "lora_alpha": 16,
+    "target": "vision+language, attention+MLP"
+  },
+  "trainable_params": 20542464,
+  "reference_frozen": true,
+  "reference_snapshot_tensors": 824,
+  "train_equals_reference_at_step0": true,
+  "note": "DPO продолжает собственный SFT из лабы 9"
+}

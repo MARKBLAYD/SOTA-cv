@@ -1,0 +1,16 @@
+{
+  "sd_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "controlnet": "lllyasviel/sd-controlnet-canny",
+  "scheduler": "UniPCMultistepScheduler",
+  "dtype": "fp16",
+  "resolution": 256,
+  "steps": 20,
+  "vram_free_before_gb": 3.28,
+  "vram_free_after_gb": 0.0,
+  "prompts_cached": 10,
+  "licenses": {
+    "mnist": "public domain (Yann LeCun / NYU; раздаётся зеркалами torchvision)",
+    "sd1.5": "CreativeML Open RAIL-M",
+    "sd-controlnet-canny": "OpenRAIL (+ код Apache-2.0)"
+  }
+}

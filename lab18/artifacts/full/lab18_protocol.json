@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "fast_dev_run": false,
+  "guidance_w": 3.0,
+  "n_images": 80,
+  "per_class": 8,
+  "x_T_seed": 92,
+  "sampling_seed": 93,
+  "labels_bincount": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "teacher_T": 500,
+  "classifier_test_accuracy_report": 0.977,
+  "classifier_test_accuracy_measured": 0.9769999980926514,
+  "classifier_check_n": 2000,
+  "test_n": 2000
+}

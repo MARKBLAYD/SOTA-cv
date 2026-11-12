@@ -1,0 +1,30 @@
+{
+  "seed_init": 142,
+  "seed_batches": 62,
+  "per_k": {
+    "16": {
+      "steps": 1000,
+      "batch": 256,
+      "lr": 0.0003,
+      "loss_first": 0.2477,
+      "loss_last": 0.0709,
+      "train_time_s": 26.3,
+      "test_mse": 0.012540912238919006,
+      "used": 16,
+      "dead": 0,
+      "perplexity": 9.415169385932277
+    },
+    "64": {
+      "steps": 1000,
+      "batch": 256,
+      "lr": 0.0003,
+      "loss_first": 0.2472,
+      "loss_last": 0.0427,
+      "train_time_s": 26.3,
+      "test_mse": 0.010530191382583307,
+      "used": 34,
+      "dead": 30,
+      "perplexity": 13.476969090139121
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "scienceqa-test-10": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-17": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-18": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-35": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-36": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-39": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-42": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-45": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-49": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-56": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-65": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-67": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-78": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-80": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-90": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-94": {
+    "1": "foundation",
+    "2": "aligned",
+    "3": "reference"
+  },
+  "scienceqa-test-104": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-107": {
+    "1": "aligned",
+    "2": "foundation",
+    "3": "reference"
+  },
+  "scienceqa-test-110": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-116": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-123": {
+    "1": "foundation",
+    "2": "aligned",
+    "3": "reference"
+  },
+  "scienceqa-test-136": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-148": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-150": {
+    "1": "aligned",
+    "2": "foundation",
+    "3": "reference"
+  },
+  "scienceqa-test-154": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-157": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-161": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-167": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-168": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-172": {
+    "1": "aligned",
+    "2": "foundation",
+    "3": "reference"
+  },
+  "scienceqa-test-177": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-180": {
+    "1": "foundation",
+    "2": "aligned",
+    "3": "reference"
+  },
+  "scienceqa-test-185": {
+    "1": "foundation",
+    "2": "aligned",
+    "3": "reference"
+  },
+  "scienceqa-test-194": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-207": {
+    "1": "aligned",
+    "2": "foundation",
+    "3": "reference"
+  },
+  "scienceqa-test-219": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-236": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-241": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-243": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-247": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-249": {
+    "1": "foundation",
+    "2": "aligned",
+    "3": "reference"
+  },
+  "scienceqa-test-253": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-256": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-257": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-263": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-269": {
+    "1": "foundation",
+    "2": "aligned",
+    "3": "reference"
+  },
+  "scienceqa-test-272": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-274": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-303": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-307": {
+    "1": "foundation",
+    "2": "aligned",
+    "3": "reference"
+  },
+  "scienceqa-test-314": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-349": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-356": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-364": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-368": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-369": {
+    "1": "aligned",
+    "2": "foundation",
+    "3": "reference"
+  },
+  "scienceqa-test-372": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-379": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-382": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-391": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-397": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  },
+  "scienceqa-test-398": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-400": {
+    "1": "foundation",
+    "2": "aligned",
+    "3": "reference"
+  },
+  "scienceqa-test-402": {
+    "1": "foundation",
+    "2": "reference",
+    "3": "aligned"
+  }
+}

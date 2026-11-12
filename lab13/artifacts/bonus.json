@@ -1,0 +1,21 @@
+{
+  "hypothesis": "CFG-dropout p=0.5 при том же бюджете: text_sim ниже, diversity выше (гипотеза до прогона)",
+  "p_uncond": 0.5,
+  "n_updates": 400,
+  "seed_base": 7000045,
+  "final_loss": 0.3041,
+  "table": {
+    "r8_lr1e-4@400": {
+      "text_sim": 0.3023,
+      "diversity": 0.1626,
+      "nearest_train": 0.8635
+    },
+    "r8_lr1e-4_dropout50@400": {
+      "text_sim": 0.307,
+      "diversity": 0.1868,
+      "nearest_train": 0.8529
+    }
+  },
+  "confirmed": false,
+  "interpretation": "text_sim 0.3023 -> 0.307 (не ниже), diversity 0.1626 -> 0.1868 (выше); гипотеза НЕ подтверждена (обе части условия должны выполняться одновременно)"
+}

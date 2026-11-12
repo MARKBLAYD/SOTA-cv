@@ -1,0 +1,24 @@
+{
+  "hypothesis": "DDIM (eta=0) при w=3 сохраняет class agreement, но снижает разнообразие сэмплов",
+  "fixed": {
+    "w": 3.0,
+    "model": "EMA denoiser",
+    "x_T_seed": 92,
+    "z_seed": 93,
+    "T": 500
+  },
+  "factor": "стохастичность реверс-процесса: DDPM (sqrt(beta_t)*z) против DDIM (eta=0)",
+  "ddpm_w3": {
+    "agreement": 0.9875,
+    "confidence": 0.9909,
+    "diversity_l2": 6.1374,
+    "nearest_test_l2": 5.5024
+  },
+  "ddim_w3": {
+    "agreement": 0.0,
+    "confidence": 0.8576,
+    "diversity_l2": 8.5398,
+    "nearest_test_l2": 11.7039
+  },
+  "nfe_ddim": 1000
+}

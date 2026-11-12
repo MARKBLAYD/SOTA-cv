@@ -1,0 +1,16 @@
+{"id": "scienceqa-train-16", "lp_chosen": -0.002937175100669265, "lp_rejected": -5.924811840057373}
+{"id": "scienceqa-train-23", "lp_chosen": -0.0005429707234725356, "lp_rejected": -9.156793594360352}
+{"id": "scienceqa-train-36", "lp_chosen": -0.06350099295377731, "lp_rejected": -2.7978768348693848}
+{"id": "scienceqa-train-40", "lp_chosen": -0.0010863614734262228, "lp_rejected": -6.860462665557861}
+{"id": "scienceqa-train-13", "lp_chosen": -0.0016079152701422572, "lp_rejected": -7.017233371734619}
+{"id": "scienceqa-train-26", "lp_chosen": -0.004001118242740631, "lp_rejected": -5.738377571105957}
+{"id": "scienceqa-train-9", "lp_chosen": -0.005778282880783081, "lp_rejected": -5.4745306968688965}
+{"id": "scienceqa-train-11", "lp_chosen": -1.0027744770050049, "lp_rejected": -4.752774238586426}
+{"id": "scienceqa-train-16", "lp_chosen": -0.002937175100669265, "lp_rejected": -5.924811840057373}
+{"id": "scienceqa-train-23", "lp_chosen": -0.0005429707234725356, "lp_rejected": -9.156793594360352}
+{"id": "scienceqa-train-36", "lp_chosen": -0.06350099295377731, "lp_rejected": -2.7978768348693848}
+{"id": "scienceqa-train-40", "lp_chosen": -0.0010863614734262228, "lp_rejected": -6.860462665557861}
+{"id": "scienceqa-train-13", "lp_chosen": -0.0016079152701422572, "lp_rejected": -7.017233371734619}
+{"id": "scienceqa-train-26", "lp_chosen": -0.004001118242740631, "lp_rejected": -5.738377571105957}
+{"id": "scienceqa-train-9", "lp_chosen": -0.005778282880783081, "lp_rejected": -5.4745306968688965}
+{"id": "scienceqa-train-11", "lp_chosen": -1.0027744770050049, "lp_rejected": -4.752774238586426}

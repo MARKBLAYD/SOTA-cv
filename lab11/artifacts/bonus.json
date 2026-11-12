@@ -1,0 +1,11 @@
+{
+  "split": "ood_test",
+  "n": 64,
+  "em": {
+    "foundation": 0.625,
+    "reference": 0.6875,
+    "aligned": 0.6719
+  },
+  "delta_em_aligned_vs_reference": -0.0156,
+  "verdict": "в пределах шума"
+}

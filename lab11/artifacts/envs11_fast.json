@@ -9,7 +9,7 @@
     "beta": 0.1,
     "lr": 5e-06,
     "accum": 8,
-    "optimizer_steps": 40,
+    "optimizer_steps": 2,
     "micro_batch": 1,
     "seed": 42
   },

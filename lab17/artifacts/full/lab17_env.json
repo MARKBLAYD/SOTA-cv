@@ -1,0 +1,13 @@
+{
+  "device": "cuda",
+  "fast_dev_run": false,
+  "run_mode": "full",
+  "artifacts": "artifacts\\full",
+  "seed": 42,
+  "torch": "2.14.1+cu126",
+  "numpy": "2.4.6",
+  "torchvision": "0.29.1+cu126",
+  "data_source": "torchvision.datasets.MNIST (зеркало ossci-datasets S3)",
+  "data_license": "MNIST - свободно распространяемый датасет (LeCun et al.), используется в учебных целях",
+  "model_source": "все модели лабы (TinyDenoiser, DigitCNN) обучаются с нуля, предобученные веса не используются"
+}

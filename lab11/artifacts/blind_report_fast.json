@@ -1,0 +1,23 @@
+{
+  "n_form": 4,
+  "n_judged": 0,
+  "n_pending": 4,
+  "n_ties": 0,
+  "denominators": {
+    "win_rate": 0,
+    "hallucination_and_format": 0
+  },
+  "em_objective": {
+    "foundation": 1.0,
+    "reference": 0.75,
+    "aligned": 0.75
+  },
+  "win_rate_manual": {
+    "foundation": null,
+    "reference": null,
+    "aligned": null
+  },
+  "hallucination_rate_manual": null,
+  "format_ok_manual": null,
+  "limitations": "предпочтения label-derived (правильная буква против соседней): проверяется только предпочтение правильного варианта, НЕ безопасность или универсальная полезность; pending-записей: 4 — в ручные метрики НЕ включены (знаменатели честные)"
+}

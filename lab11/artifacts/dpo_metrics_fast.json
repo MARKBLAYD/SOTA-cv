@@ -1,0 +1,42 @@
+{
+  "protocol": {
+    "beta": 0.1,
+    "lr": 5e-06,
+    "accum": 8,
+    "optimizer_steps": 2,
+    "micro_batch": 1,
+    "grad_clip_norm": 1.0,
+    "seed": 42,
+    "decoding": "greedy",
+    "max_new_tokens": 16,
+    "answer_tokens": "буква + EOS",
+    "ref_frozen": true,
+    "ref_compute": "no_grad, снапшот LoRA-весов (без второй копии модели)",
+    "pairs_source": "artifacts/preferences_fast.jsonl (train, label-derived)"
+  },
+  "steps_done": 2,
+  "steps_target": 2,
+  "loss_per_step": [
+    0.6931471824645996,
+    0.687404029071331
+  ],
+  "policy_margin_per_step": [
+    5.830078939936357,
+    5.945313245909347
+  ],
+  "ref_margin_per_step": [
+    5.830078939936357,
+    5.830078939936357
+  ],
+  "loss_first_last": [
+    0.6931471824645996,
+    0.687404029071331
+  ],
+  "resumed_from_step": 0,
+  "seconds_this_session": 177.3,
+  "peak_vram_gb": 2.99,
+  "loss_finite": true,
+  "adapter_dir": "artifacts\\aligned_adapter_fast",
+  "weight_shift_max_abs": 1.0009855031967163e-05,
+  "note": "reference заморожена (no_grad, снапшот); NaN не маскируются — падение честное"
+}

@@ -1,0 +1,46 @@
+{
+  "reference_nearest_test_l2": 6.072,
+  "classifier_test_accuracy": 0.14,
+  "n_images": 10,
+  "per_class": 1,
+  "x_T_seed": 92,
+  "sampling_seed": 93,
+  "per_w": {
+    "0.0": {
+      "agreement": 0.0,
+      "confidence": 0.1287,
+      "diversity_l2": 15.473,
+      "nearest_test_l2": 14.2708,
+      "nfe": 2,
+      "nfe_per_step": 1,
+      "time_s": 0.0
+    },
+    "1.0": {
+      "agreement": 0.0,
+      "confidence": 0.1289,
+      "diversity_l2": 15.5284,
+      "nearest_test_l2": 14.4053,
+      "nfe": 4,
+      "nfe_per_step": 2,
+      "time_s": 0.0
+    },
+    "3.0": {
+      "agreement": 0.0,
+      "confidence": 0.1292,
+      "diversity_l2": 15.6165,
+      "nearest_test_l2": 14.6582,
+      "nfe": 4,
+      "nfe_per_step": 2,
+      "time_s": 0.0
+    },
+    "5.0": {
+      "agreement": 0.0,
+      "confidence": 0.1295,
+      "diversity_l2": 15.7133,
+      "nearest_test_l2": 14.9139,
+      "nfe": 4,
+      "nfe_per_step": 2,
+      "time_s": 0.0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "n_images": 28,
+  "sha256_verified": 28,
+  "licenses_cc0": 28,
+  "rgb": 28,
+  "unique_sha256": 28,
+  "unique_captions": 28,
+  "size_min": [
+    960,
+    540
+  ],
+  "size_max": [
+    960,
+    1281
+  ],
+  "elapsed_s": 1.0,
+  "data_dir": "data\\lab13",
+  "source": "Wikimedia Commons, CC0-1.0, проверка по extmetadata каждого файла"
+}

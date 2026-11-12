@@ -1,0 +1,241 @@
+{
+  "protocol": {
+    "mode": "full",
+    "resolution": 512,
+    "steps": 30,
+    "guidance": 7.5,
+    "prompts": [
+      "a photo of sks butterfly",
+      "a photo of sks butterfly on a flower",
+      "a close-up photo of sks butterfly with open wings",
+      "a photo of two sks butterflies sitting on a leaf",
+      "a photo of sks butterfly in a summer garden",
+      "a watercolor painting of sks butterfly on white background"
+    ],
+    "seeds": [
+      1234,
+      5678
+    ],
+    "diversity_def": "средняя попарная косинусная дистанция (1 - cos) по всем парам изображений checkpoint",
+    "nearest_train_def": "средний максимум косинуса к 28 train-эмбеддингам (CLIP ViT-B/32, CPU)"
+  },
+  "results": [
+    {
+      "text_sim": 0.3028,
+      "diversity": 0.1897,
+      "nearest_train": 0.8504,
+      "text_sim_per_prompt": {
+        "a photo of sks butterfly": 0.2813,
+        "a photo of sks butterfly on a flower": 0.3158,
+        "a close-up photo of sks butterfly with open wings": 0.2954,
+        "a photo of two sks butterflies sitting on a leaf": 0.3241,
+        "a photo of sks butterfly in a summer garden": 0.2979,
+        "a watercolor painting of sks butterfly on white background": 0.3021
+      },
+      "nearest_train_per_image": [
+        0.8943,
+        0.8099,
+        0.8975,
+        0.9074,
+        0.8867,
+        0.8671,
+        0.867,
+        0.8506,
+        0.8795,
+        0.7878,
+        0.8101,
+        0.7474
+      ],
+      "checkpoint": "baseline",
+      "step": null,
+      "n_images": 12,
+      "seconds": 0.8
+    },
+    {
+      "text_sim": 0.3019,
+      "diversity": 0.1701,
+      "nearest_train": 0.8565,
+      "text_sim_per_prompt": {
+        "a photo of sks butterfly": 0.2712,
+        "a photo of sks butterfly on a flower": 0.3206,
+        "a close-up photo of sks butterfly with open wings": 0.2847,
+        "a photo of two sks butterflies sitting on a leaf": 0.3289,
+        "a photo of sks butterfly in a summer garden": 0.3104,
+        "a watercolor painting of sks butterfly on white background": 0.2958
+      },
+      "nearest_train_per_image": [
+        0.8954,
+        0.8707,
+        0.8791,
+        0.8906,
+        0.8981,
+        0.8263,
+        0.8783,
+        0.8577,
+        0.8873,
+        0.8203,
+        0.8145,
+        0.7599
+      ],
+      "checkpoint": "r8_lr1e-4",
+      "step": 200,
+      "n_images": 12,
+      "seconds": 660.7
+    },
+    {
+      "text_sim": 0.3023,
+      "diversity": 0.1626,
+      "nearest_train": 0.8635,
+      "text_sim_per_prompt": {
+        "a photo of sks butterfly": 0.2712,
+        "a photo of sks butterfly on a flower": 0.321,
+        "a close-up photo of sks butterfly with open wings": 0.2909,
+        "a photo of two sks butterflies sitting on a leaf": 0.3244,
+        "a photo of sks butterfly in a summer garden": 0.3095,
+        "a watercolor painting of sks butterfly on white background": 0.2967
+      },
+      "nearest_train_per_image": [
+        0.8979,
+        0.9019,
+        0.9002,
+        0.8826,
+        0.9098,
+        0.8591,
+        0.864,
+        0.8649,
+        0.8773,
+        0.866,
+        0.7782,
+        0.7597
+      ],
+      "checkpoint": "r8_lr1e-4",
+      "step": 400,
+      "n_images": 12,
+      "seconds": 665.7
+    },
+    {
+      "text_sim": 0.2961,
+      "diversity": 0.178,
+      "nearest_train": 0.8576,
+      "text_sim_per_prompt": {
+        "a photo of sks butterfly": 0.2611,
+        "a photo of sks butterfly on a flower": 0.3201,
+        "a close-up photo of sks butterfly with open wings": 0.2832,
+        "a photo of two sks butterflies sitting on a leaf": 0.3262,
+        "a photo of sks butterfly in a summer garden": 0.2872,
+        "a watercolor painting of sks butterfly on white background": 0.299
+      },
+      "nearest_train_per_image": [
+        0.9077,
+        0.9145,
+        0.8853,
+        0.8872,
+        0.91,
+        0.8477,
+        0.8926,
+        0.8695,
+        0.8801,
+        0.7675,
+        0.785,
+        0.7443
+      ],
+      "checkpoint": "r16_lr1e-4",
+      "step": 200,
+      "n_images": 12,
+      "seconds": 665.3
+    },
+    {
+      "text_sim": 0.3026,
+      "diversity": 0.1222,
+      "nearest_train": 0.8836,
+      "text_sim_per_prompt": {
+        "a photo of sks butterfly": 0.2709,
+        "a photo of sks butterfly on a flower": 0.3216,
+        "a close-up photo of sks butterfly with open wings": 0.2752,
+        "a photo of two sks butterflies sitting on a leaf": 0.3356,
+        "a photo of sks butterfly in a summer garden": 0.3198,
+        "a watercolor painting of sks butterfly on white background": 0.2927
+      },
+      "nearest_train_per_image": [
+        0.93,
+        0.9233,
+        0.9038,
+        0.9231,
+        0.9184,
+        0.9091,
+        0.8815,
+        0.8743,
+        0.9134,
+        0.8264,
+        0.8488,
+        0.7511
+      ],
+      "checkpoint": "r16_lr1e-4",
+      "step": 400,
+      "n_images": 12,
+      "seconds": 665.1
+    },
+    {
+      "text_sim": 0.3051,
+      "diversity": 0.2104,
+      "nearest_train": 0.8396,
+      "text_sim_per_prompt": {
+        "a photo of sks butterfly": 0.2748,
+        "a photo of sks butterfly on a flower": 0.3161,
+        "a close-up photo of sks butterfly with open wings": 0.2929,
+        "a photo of two sks butterflies sitting on a leaf": 0.3295,
+        "a photo of sks butterfly in a summer garden": 0.2955,
+        "a watercolor painting of sks butterfly on white background": 0.3218
+      },
+      "nearest_train_per_image": [
+        0.8897,
+        0.8886,
+        0.8937,
+        0.9104,
+        0.8662,
+        0.8484,
+        0.8565,
+        0.8429,
+        0.8869,
+        0.749,
+        0.7545,
+        0.688
+      ],
+      "checkpoint": "r8_lr5e-4",
+      "step": 200,
+      "n_images": 12,
+      "seconds": 668.8
+    },
+    {
+      "text_sim": 0.3027,
+      "diversity": 0.1768,
+      "nearest_train": 0.8548,
+      "text_sim_per_prompt": {
+        "a photo of sks butterfly": 0.2794,
+        "a photo of sks butterfly on a flower": 0.318,
+        "a close-up photo of sks butterfly with open wings": 0.2871,
+        "a photo of two sks butterflies sitting on a leaf": 0.3497,
+        "a photo of sks butterfly in a summer garden": 0.2823,
+        "a watercolor painting of sks butterfly on white background": 0.2998
+      },
+      "nearest_train_per_image": [
+        0.8935,
+        0.8946,
+        0.8609,
+        0.8934,
+        0.8833,
+        0.8834,
+        0.8627,
+        0.8541,
+        0.8757,
+        0.7524,
+        0.849,
+        0.7545
+      ],
+      "checkpoint": "r8_lr5e-4",
+      "step": 400,
+      "n_images": 12,
+      "seconds": 666.5
+    }
+  ]
+}

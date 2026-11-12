@@ -1,0 +1,148 @@
+{
+  "rows": [
+    {
+      "sampler": "rf_euler@1",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 378,
+      "max_mode_count": 691,
+      "mean_dist_to_center": 1.935,
+      "mmd2": 0.083989,
+      "mean_nn_to_test": 1.6044,
+      "time_s": 0.02
+    },
+    {
+      "sampler": "rf_euler@2",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 370,
+      "max_mode_count": 656,
+      "mean_dist_to_center": 1.0264,
+      "mmd2": 0.029407,
+      "mean_nn_to_test": 0.7005,
+      "time_s": 0.003
+    },
+    {
+      "sampler": "rf_euler@5",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 446,
+      "max_mode_count": 611,
+      "mean_dist_to_center": 0.3094,
+      "mmd2": 0.000886,
+      "mean_nn_to_test": 0.0925,
+      "time_s": 0.009
+    },
+    {
+      "sampler": "rf_euler@10",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 429,
+      "max_mode_count": 613,
+      "mean_dist_to_center": 0.2409,
+      "mmd2": 0.000318,
+      "mean_nn_to_test": 0.0531,
+      "time_s": 0.017
+    },
+    {
+      "sampler": "rf_euler@25",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 419,
+      "max_mode_count": 613,
+      "mean_dist_to_center": 0.2118,
+      "mmd2": 0.000101,
+      "mean_nn_to_test": 0.0389,
+      "time_s": 0.042
+    },
+    {
+      "sampler": "rf_euler@100",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 411,
+      "max_mode_count": 610,
+      "mean_dist_to_center": 0.1995,
+      "mmd2": 2.7e-05,
+      "mean_nn_to_test": 0.0332,
+      "time_s": 0.155
+    },
+    {
+      "sampler": "vp_reverse@1",
+      "coverage": 0.875,
+      "covered_modes": 7,
+      "min_mode_count": 27,
+      "max_mode_count": 1766,
+      "mean_dist_to_center": 1.3146,
+      "mmd2": 0.081959,
+      "mean_nn_to_test": 0.9896,
+      "time_s": 0.008
+    },
+    {
+      "sampler": "vp_reverse@2",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 211,
+      "max_mode_count": 1119,
+      "mean_dist_to_center": 0.5871,
+      "mmd2": 0.034351,
+      "mean_nn_to_test": 0.3089,
+      "time_s": 0.002
+    },
+    {
+      "sampler": "vp_reverse@5",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 301,
+      "max_mode_count": 795,
+      "mean_dist_to_center": 0.2402,
+      "mmd2": 0.008418,
+      "mean_nn_to_test": 0.0699,
+      "time_s": 0.004
+    },
+    {
+      "sampler": "vp_reverse@10",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 362,
+      "max_mode_count": 714,
+      "mean_dist_to_center": 0.2032,
+      "mmd2": 0.004437,
+      "mean_nn_to_test": 0.0439,
+      "time_s": 0.007
+    },
+    {
+      "sampler": "vp_reverse@25",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 375,
+      "max_mode_count": 686,
+      "mean_dist_to_center": 0.1882,
+      "mmd2": 0.003008,
+      "mean_nn_to_test": 0.0335,
+      "time_s": 0.017
+    },
+    {
+      "sampler": "vp_reverse@100",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 381,
+      "max_mode_count": 673,
+      "mean_dist_to_center": 0.1815,
+      "mmd2": 0.002522,
+      "mean_nn_to_test": 0.0279,
+      "time_s": 0.07
+    }
+  ],
+  "n_eval": 4096,
+  "k_grid": [
+    1,
+    2,
+    5,
+    10,
+    25,
+    100
+  ],
+  "mode_threshold": 40,
+  "mmd": "несмещённый MMD^2, RBF, bw = median(test) = 3.1113",
+  "note": "все метрики - по фактическим точкам сэмплов против независимого test; train loss не используется"
+}

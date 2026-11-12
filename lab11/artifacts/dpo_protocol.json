@@ -1,0 +1,15 @@
+{
+  "beta": 0.1,
+  "lr": 5e-06,
+  "accum": 8,
+  "optimizer_steps": 40,
+  "micro_batch": 1,
+  "grad_clip_norm": 1.0,
+  "seed": 42,
+  "decoding": "greedy",
+  "max_new_tokens": 16,
+  "answer_tokens": "буква + EOS",
+  "ref_frozen": true,
+  "ref_compute": "no_grad, снапшот LoRA-весов (без второй копии модели)",
+  "pairs_source": "artifacts/preferences.jsonl (train, label-derived)"
+}

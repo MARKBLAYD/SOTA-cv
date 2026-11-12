@@ -1,0 +1,12 @@
+{"id": "pixmo-count-test-11", "gold": 3, "predictions": {"0.75": 2}, "correct": {"0.75": false}}
+{"id": "pixmo-count-test-12", "gold": 3, "predictions": {"0.75": 3}, "correct": {"0.75": true}}
+{"id": "pixmo-count-test-15", "gold": 3, "predictions": {"0.75": 3}, "correct": {"0.75": true}}
+{"id": "pixmo-count-test-20", "gold": 3, "predictions": {"0.75": 3}, "correct": {"0.75": true}}
+{"id": "pixmo-count-test-23", "gold": 3, "predictions": {"0.75": 3}, "correct": {"0.75": true}}
+{"id": "pixmo-count-test-24", "gold": 3, "predictions": {"0.75": 2}, "correct": {"0.75": false}}
+{"id": "pixmo-count-test-58", "gold": 2, "predictions": {"0.75": 2}, "correct": {"0.75": true}}
+{"id": "pixmo-count-test-60", "gold": 2, "predictions": {"0.75": 3}, "correct": {"0.75": false}}
+{"id": "pixmo-count-test-62", "gold": 2, "predictions": {"0.75": 3}, "correct": {"0.75": false}}
+{"id": "pixmo-count-test-65", "gold": 2, "predictions": {"0.75": 3}, "correct": {"0.75": false}}
+{"id": "pixmo-count-test-74", "gold": 2, "predictions": {"0.75": 3}, "correct": {"0.75": false}}
+{"id": "pixmo-count-test-81", "gold": 2, "predictions": {"0.75": 2}, "correct": {"0.75": true}}

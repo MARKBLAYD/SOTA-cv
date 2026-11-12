@@ -1,0 +1,6 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "device": "cpu",
+  "cos_own_caption": 0.2997,
+  "cos_other_caption": 0.2507
+}

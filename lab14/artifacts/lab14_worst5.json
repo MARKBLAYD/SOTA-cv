@@ -1,0 +1,62 @@
+{
+  "criterion": "5 минимальных edge F1 (тай-брейк — минимальный clip_cos); значения фактические",
+  "tol_px": 6,
+  "rows_total": 1000,
+  "worst": [
+    {
+      "contour_id": 197,
+      "label": 9,
+      "setting": "base",
+      "seed": 10198818,
+      "path": "artifacts\\lab14\\gen\\base\\c197_seed10198818.png",
+      "edge_f1": 0.0,
+      "clip_cos": 0.1967,
+      "rank": 1,
+      "saved_as": "artifacts\\lab14\\worst5\\01_c197_base_edgeF10.0.png"
+    },
+    {
+      "contour_id": 107,
+      "label": 5,
+      "setting": "base",
+      "seed": 10108008,
+      "path": "artifacts\\lab14\\gen\\base\\c107_seed10108008.png",
+      "edge_f1": 0.0,
+      "clip_cos": 0.2453,
+      "rank": 2,
+      "saved_as": "artifacts\\lab14\\worst5\\02_c107_base_edgeF10.0.png"
+    },
+    {
+      "contour_id": 115,
+      "label": 5,
+      "setting": "base",
+      "seed": 10116080,
+      "path": "artifacts\\lab14\\gen\\base\\c115_seed10116080.png",
+      "edge_f1": 0.0,
+      "clip_cos": 0.2657,
+      "rank": 3,
+      "saved_as": "artifacts\\lab14\\worst5\\03_c115_base_edgeF10.0.png"
+    },
+    {
+      "contour_id": 10,
+      "label": 0,
+      "setting": "s05_cfg75",
+      "seed": 10010135,
+      "path": "artifacts\\lab14\\gen\\s05_cfg75\\c010_seed10010135.png",
+      "edge_f1": 0.0,
+      "clip_cos": 0.273,
+      "rank": 4,
+      "saved_as": "artifacts\\lab14\\worst5\\04_c010_s05_cfg75_edgeF10.0.png"
+    },
+    {
+      "contour_id": 104,
+      "label": 5,
+      "setting": "base",
+      "seed": 10104981,
+      "path": "artifacts\\lab14\\gen\\base\\c104_seed10104981.png",
+      "edge_f1": 0.0,
+      "clip_cos": 0.2767,
+      "rank": 5,
+      "saved_as": "artifacts\\lab14\\worst5\\05_c104_base_edgeF10.0.png"
+    }
+  ]
+}

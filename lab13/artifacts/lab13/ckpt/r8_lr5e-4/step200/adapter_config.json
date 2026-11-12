@@ -1,0 +1,16 @@
+{
+  "adapter_name": "r8_lr5e-4",
+  "name": "r8_lr5e-4",
+  "rank": 8,
+  "lr": 0.0005,
+  "alpha": 8,
+  "targets": [
+    "to_q",
+    "to_k",
+    "to_v",
+    "to_out.0"
+  ],
+  "step": 200,
+  "p_uncond": 0.0,
+  "elapsed_s": 460.9
+}

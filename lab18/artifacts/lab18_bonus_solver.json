@@ -1,0 +1,41 @@
+{
+  "hypothesis": "DPM-Solver++(2M) при 5 шагах сохранит class agreement ближе к DDIM-50, чем DDIM-5 (точнее решение того же ОДУ); разнообразие изменится слабо",
+  "fixed": {
+    "w": 3.0,
+    "model": "EMA teacher (лаба 17)",
+    "x_T_seed": 92,
+    "sampling_seed": 93,
+    "steps": 2
+  },
+  "factor": "тип solver: DDIM против DPM-Solver++(2M) при равном бюджете",
+  "reference": {
+    "sampler": "ddim-4",
+    "agreement": 1.0,
+    "confidence": 1.0,
+    "diversity_intra_l2": null,
+    "nfe": 8
+  },
+  "ddim": {
+    "steps": 2,
+    "agreement": 1.0,
+    "confidence": 0.9995,
+    "diversity_intra_l2": null,
+    "nfe": 4
+  },
+  "dspp2m": {
+    "steps": 2,
+    "agreement": 1.0,
+    "confidence": 0.9995,
+    "diversity_intra_l2": null,
+    "nfe": 4
+  },
+  "agreement_drop_vs_reference": {
+    "ddim": 0.0,
+    "dspp2m": 0.0
+  },
+  "l2_to_reference_mean": {
+    "ddim": 10.435,
+    "dspp2m": 10.435
+  },
+  "verdict": "ОПРОВЕРГНУТА"
+}

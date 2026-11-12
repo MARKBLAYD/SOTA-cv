@@ -1,0 +1,21 @@
+{
+  "hypothesis": "периодическая реактивация dead-кодов при том же seed/данных/бюджете снижает dead и test MSE у K=64",
+  "reinit_every": 100,
+  "usage_window": 100,
+  "reinit_events": 2,
+  "base": {
+    "test_mse": 0.010530191382583307,
+    "used": 34,
+    "dead": 30,
+    "perplexity": 13.476969090139121
+  },
+  "reactivated": {
+    "test_mse": 0.008459685033681441,
+    "used": 64,
+    "dead": 0,
+    "perplexity": 38.14619321739862
+  },
+  "confirmed": true,
+  "steps": 1000,
+  "train_time_s": 26.0
+}

@@ -1,0 +1,14 @@
+{
+  "n": 4,
+  "em": {
+    "foundation": 1.0,
+    "reference": 0.75,
+    "aligned": 0.75
+  },
+  "format_rate_strict": {
+    "foundation": 1.0,
+    "reference": 1.0,
+    "aligned": 1.0
+  },
+  "note": "EM — автоматическая метрика по эталонным буквам, НЕ человеческий win rate"
+}

@@ -1,0 +1,10 @@
+{
+  "IMG-001": {
+    "checkpoint": "fast_smoke",
+    "step": 1
+  },
+  "IMG-002": {
+    "checkpoint": "baseline",
+    "step": null
+  }
+}

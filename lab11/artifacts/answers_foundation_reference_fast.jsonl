@@ -1,0 +1,4 @@
+{"id": "scienceqa-test-10", "split": "id_test", "gold": "C", "foundation_text": "C", "reference_text": "C"}
+{"id": "scienceqa-test-17", "split": "id_test", "gold": "B", "foundation_text": "B", "reference_text": "A"}
+{"id": "scienceqa-test-18", "split": "id_test", "gold": "A", "foundation_text": "A", "reference_text": "A"}
+{"id": "scienceqa-test-35", "split": "id_test", "gold": "B", "foundation_text": "B", "reference_text": "B"}

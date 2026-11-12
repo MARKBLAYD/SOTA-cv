@@ -1,0 +1,57 @@
+{
+  "budget": 80,
+  "n_test": 12,
+  "class_balance": {
+    "3": 6,
+    "2": 6
+  },
+  "majority_baseline": 0.5,
+  "results": [
+    {
+      "alpha": 0.0,
+      "n_real": 80,
+      "n_synthetic": 0,
+      "train_acc": 1.0,
+      "test_acc": 0.3333,
+      "per_class_acc": {
+        "2": 0.1667,
+        "3": 0.5
+      }
+    },
+    {
+      "alpha": 0.25,
+      "n_real": 60,
+      "n_synthetic": 20,
+      "train_acc": 1.0,
+      "test_acc": 0.4167,
+      "per_class_acc": {
+        "2": 0.5,
+        "3": 0.3333
+      }
+    },
+    {
+      "alpha": 0.5,
+      "n_real": 40,
+      "n_synthetic": 40,
+      "train_acc": 1.0,
+      "test_acc": 0.6667,
+      "per_class_acc": {
+        "2": 0.5,
+        "3": 0.8333
+      }
+    },
+    {
+      "alpha": 0.75,
+      "n_real": 20,
+      "n_synthetic": 60,
+      "train_acc": 1.0,
+      "test_acc": 0.5,
+      "per_class_acc": {
+        "2": 0.3333,
+        "3": 0.6667
+      }
+    }
+  ],
+  "best_alpha": 0.5,
+  "note": "test n=12: шаг точности 1/12≈0.083; различия между смесями < 0.17 в пределах шума выборки"
+}

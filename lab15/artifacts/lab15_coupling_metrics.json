@@ -1,0 +1,144 @@
+{
+  "pairing": "угловой: шум и train-точка из одного 45-градусного сектора",
+  "rows": [
+    {
+      "sampler": "rf_ang@1",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 445,
+      "max_mode_count": 601,
+      "mean_dist_to_center": 0.5674,
+      "mmd2": 0.002541,
+      "mean_nn_to_test": 0.239,
+      "time_s": 0.0
+    },
+    {
+      "sampler": "rf_ang@2",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 453,
+      "max_mode_count": 586,
+      "mean_dist_to_center": 0.2676,
+      "mmd2": 0.000131,
+      "mean_nn_to_test": 0.0818,
+      "time_s": 0.001
+    },
+    {
+      "sampler": "rf_ang@5",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 470,
+      "max_mode_count": 584,
+      "mean_dist_to_center": 0.1836,
+      "mmd2": -1.8e-05,
+      "mean_nn_to_test": 0.0347,
+      "time_s": 0.002
+    },
+    {
+      "sampler": "rf_ang@10",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 463,
+      "max_mode_count": 583,
+      "mean_dist_to_center": 0.1667,
+      "mmd2": -1.9e-05,
+      "mean_nn_to_test": 0.023,
+      "time_s": 0.005
+    },
+    {
+      "sampler": "rf_ang@25",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 461,
+      "max_mode_count": 582,
+      "mean_dist_to_center": 0.1592,
+      "mmd2": -1.6e-05,
+      "mean_nn_to_test": 0.0193,
+      "time_s": 0.011
+    },
+    {
+      "sampler": "rf_ang@100",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 459,
+      "max_mode_count": 582,
+      "mean_dist_to_center": 0.1563,
+      "mmd2": -1.6e-05,
+      "mean_nn_to_test": 0.0182,
+      "time_s": 0.046
+    }
+  ],
+  "base_rows": [
+    {
+      "sampler": "rf_euler@1",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 378,
+      "max_mode_count": 691,
+      "mean_dist_to_center": 1.935,
+      "mmd2": 0.083989,
+      "mean_nn_to_test": 1.6044,
+      "time_s": 0.02
+    },
+    {
+      "sampler": "rf_euler@2",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 370,
+      "max_mode_count": 656,
+      "mean_dist_to_center": 1.0264,
+      "mmd2": 0.029407,
+      "mean_nn_to_test": 0.7005,
+      "time_s": 0.003
+    },
+    {
+      "sampler": "rf_euler@5",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 446,
+      "max_mode_count": 611,
+      "mean_dist_to_center": 0.3094,
+      "mmd2": 0.000886,
+      "mean_nn_to_test": 0.0925,
+      "time_s": 0.009
+    },
+    {
+      "sampler": "rf_euler@10",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 429,
+      "max_mode_count": 613,
+      "mean_dist_to_center": 0.2409,
+      "mmd2": 0.000318,
+      "mean_nn_to_test": 0.0531,
+      "time_s": 0.017
+    },
+    {
+      "sampler": "rf_euler@25",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 419,
+      "max_mode_count": 613,
+      "mean_dist_to_center": 0.2118,
+      "mmd2": 0.000101,
+      "mean_nn_to_test": 0.0389,
+      "time_s": 0.042
+    },
+    {
+      "sampler": "rf_euler@100",
+      "coverage": 1.0,
+      "covered_modes": 8,
+      "min_mode_count": 411,
+      "max_mode_count": 610,
+      "mean_dist_to_center": 0.1995,
+      "mmd2": 2.7e-05,
+      "mean_nn_to_test": 0.0332,
+      "time_s": 0.155
+    }
+  ],
+  "final_loss_ang": 0.202082,
+  "train_time_s": 6.2,
+  "steps": 3000,
+  "batch": 256,
+  "note": "тот же train, тот же бюджет (steps x batch), та же сетка K и тот же шум Z, что у base"
+}

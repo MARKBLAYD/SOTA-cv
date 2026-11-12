@@ -1,0 +1,16 @@
+{
+  "n_pairs": 28,
+  "resolution": 512,
+  "token_len_min": 9,
+  "token_len_mean": 14.0,
+  "token_len_max": 22,
+  "pixel_min": -1.0,
+  "pixel_max": 1.0,
+  "latents_shape": [
+    28,
+    4,
+    64,
+    64
+  ],
+  "latents_from_cache": false
+}

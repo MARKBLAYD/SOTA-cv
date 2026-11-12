@@ -1,0 +1,19 @@
+{
+  "init": "веса teacher (EMA) из лабы 17",
+  "student_params": 415041,
+  "max_weight_diff_init": 0.0,
+  "teacher_frozen": true,
+  "train_n": 200,
+  "train_classes": [
+    21,
+    26,
+    20,
+    21,
+    21,
+    13,
+    19,
+    21,
+    15,
+    23
+  ]
+}

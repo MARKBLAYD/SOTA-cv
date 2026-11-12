@@ -1,0 +1,21 @@
+{
+  "steps": 2,
+  "batch": 16,
+  "lr": 0.0002,
+  "teacher_grid": [
+    499,
+    333,
+    166,
+    0
+  ],
+  "n_pairs": 2,
+  "guidance_w": 3.0,
+  "T": 500,
+  "loss_first": 0.02403372898697853,
+  "loss_last": 0.022907115519046783,
+  "history_every_50": [
+    0.02403372898697853
+  ],
+  "train_time_s": 0.3,
+  "checkpoint": "lab18_ckpt_student.pt"
+}

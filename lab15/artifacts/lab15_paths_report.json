@@ -1,0 +1,8 @@
+{
+  "n_pairs_shown": 400,
+  "noise_std": 1.0,
+  "mlp": "Linear(3->128)+SiLU x3 -> Linear(128->2)",
+  "n_params": 33794,
+  "use_time_variant": "бонус: use_time=False (вход (x, y) без t)",
+  "note": "таргет скорости на линейном пути: v* = x1 - x0"
+}

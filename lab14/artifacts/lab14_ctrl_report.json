@@ -1,0 +1,8 @@
+{
+  "n_contours": 200,
+  "resolution": 256,
+  "canny_low": 60,
+  "canny_high": 160,
+  "min_edge_pixels": 388,
+  "label_provenance": "контур и метка из одного train-изображения (source_index)"
+}

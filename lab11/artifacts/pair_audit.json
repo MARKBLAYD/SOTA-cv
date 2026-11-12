@@ -1,0 +1,12 @@
+{
+  "n_pairs": 512,
+  "id_intersection_train_idtest": 0,
+  "image_hash_intersection_train_idtest": 0,
+  "chosen_longer_share": 0.0,
+  "length_equal_share": 1.0,
+  "mean_abs_len_diff": 0.0,
+  "rejected_offset_distribution": {
+    "+1": 512
+  },
+  "note": "chosen/rejected — одиночные буквы равной длины: длина и стиль не могут служить скрытым сигналом правильности"
+}

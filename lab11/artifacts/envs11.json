@@ -1,0 +1,25 @@
+{
+  "gpu": "NVIDIA GeForce GTX 1050 Ti",
+  "vram_gb": 4.0,
+  "os": "Windows-10-10.0.19045-SP0",
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct (4-bit NF4, локальный кэш)",
+  "fast_dev_run": false,
+  "data_manifest": "C:\\Users\\eric1\\Desktop\\SOTA\\lab9\\data\\lab9\\manifest.jsonl",
+  "dpo": {
+    "beta": 0.1,
+    "lr": 5e-06,
+    "accum": 8,
+    "optimizer_steps": 40,
+    "micro_batch": 1,
+    "seed": 42
+  },
+  "versions": {
+    "unsloth": "2026.10.8",
+    "unsloth_zoo": "2026.10.8",
+    "transformers": "4.57.6",
+    "trl": "0.29.1",
+    "peft": "0.21.2",
+    "torch": "2.14.1+cu126",
+    "bitsandbytes": "0.50.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "steps": 2,
+  "batch": 64,
+  "lr": 0.0002,
+  "T": 2,
+  "cfg_drop_p": 0.1,
+  "loss_first": 1.0775558948516846,
+  "loss_last": 1.0427461862564087,
+  "ema_decay": 0.999,
+  "train_time_s": 0.2,
+  "history_every_50": [
+    1.0775558948516846
+  ]
+}

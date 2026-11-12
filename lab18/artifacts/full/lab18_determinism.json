@@ -1,0 +1,14 @@
+{
+  "grid_first": 499,
+  "grid_last": 0,
+  "strictly_decreasing": true,
+  "grid_steps": 20,
+  "repeat_equal": true,
+  "rng_state_unchanged": true,
+  "cuda_rng_unchanged": true,
+  "nfe": 40,
+  "time_s": [
+    0.8,
+    0.7
+  ]
+}

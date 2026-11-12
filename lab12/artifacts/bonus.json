@@ -1,0 +1,42 @@
+{
+  "hypothesis": "различия смесей на test n=12 не воспроизводятся на независимой реальной выборке",
+  "bonus_val": {
+    "n": 16,
+    "class_balance": {
+      "3": 8,
+      "2": 8
+    }
+  },
+  "test_vs_bonus": {
+    "0.0": {
+      "test_acc": 0.3333,
+      "bonus_acc": 0.5625
+    },
+    "0.25": {
+      "test_acc": 0.4167,
+      "bonus_acc": 0.5
+    },
+    "0.5": {
+      "test_acc": 0.6667,
+      "bonus_acc": 0.4375
+    },
+    "0.75": {
+      "test_acc": 0.5,
+      "bonus_acc": 0.25
+    }
+  },
+  "best_alpha": {
+    "test": 0.5,
+    "bonus_val": 0.0,
+    "replicated": false
+  },
+  "synthetic_only": {
+    "acc_holdout_syn": 1.0,
+    "acc_bonus_real": 0.375
+  },
+  "feature_cosine": {
+    "real_vs_real_halves": 0.9865,
+    "real_vs_synthetic": 0.7373,
+    "real_vs_bonus": 0.976
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "scienceqa-test-10": {
+    "1": "reference",
+    "2": "foundation",
+    "3": "aligned"
+  },
+  "scienceqa-test-17": {
+    "1": "aligned",
+    "2": "reference",
+    "3": "foundation"
+  },
+  "scienceqa-test-18": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  },
+  "scienceqa-test-35": {
+    "1": "reference",
+    "2": "aligned",
+    "3": "foundation"
+  }
+}

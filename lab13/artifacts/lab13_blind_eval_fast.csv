@@ -1,0 +1,3 @@
+code,image_path,prompt,seed,score_prompt_1to5,score_realism_1to5,butterfly_visible_0or1,comment
+IMG-001,artifacts\lab13\gen\fast_fast_smoke_step1\p00_seed1234.png,a photo of sks butterfly,1234,,,,
+IMG-002,artifacts\lab13\gen\fast_baseline\p00_seed1234.png,a photo of sks butterfly,1234,,,,

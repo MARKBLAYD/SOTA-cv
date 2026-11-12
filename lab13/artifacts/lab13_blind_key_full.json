@@ -1,0 +1,338 @@
+{
+  "IMG-001": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-002": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-003": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-004": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-005": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-006": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-007": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-008": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-009": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-010": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-011": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-012": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-013": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-014": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-015": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-016": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-017": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-018": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-019": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-020": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-021": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-022": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-023": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-024": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-025": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-026": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-027": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-028": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-029": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-030": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-031": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-032": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-033": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-034": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-035": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-036": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-037": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-038": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-039": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-040": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-041": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-042": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-043": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-044": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-045": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-046": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-047": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-048": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-049": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-050": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-051": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-052": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-053": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-054": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-055": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-056": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-057": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-058": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-059": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-060": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-061": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-062": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-063": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-064": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-065": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-066": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-067": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-068": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-069": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-070": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-071": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-072": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-073": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-074": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 200
+  },
+  "IMG-075": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-076": {
+    "checkpoint": "baseline",
+    "step": null
+  },
+  "IMG-077": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  },
+  "IMG-078": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 200
+  },
+  "IMG-079": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-080": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-081": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 200
+  },
+  "IMG-082": {
+    "checkpoint": "r16_lr1e-4",
+    "step": 400
+  },
+  "IMG-083": {
+    "checkpoint": "r8_lr1e-4",
+    "step": 400
+  },
+  "IMG-084": {
+    "checkpoint": "r8_lr5e-4",
+    "step": 400
+  }
+}

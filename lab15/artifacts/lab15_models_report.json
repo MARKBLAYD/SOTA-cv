@@ -1,0 +1,9 @@
+{
+  "flow": "VelocityMLP, таргет v* = x1 - x0",
+  "vp": "VelocityMLP, таргет eps",
+  "n_params_each": 33794,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "independent_optimizers": true,
+  "note": "архитектура и размер одинаковы; сравнивается качество распределения сэмплов, а не loss"
+}

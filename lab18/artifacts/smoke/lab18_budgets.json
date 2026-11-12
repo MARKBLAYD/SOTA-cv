@@ -1,0 +1,55 @@
+{
+  "runs": [
+    {
+      "sampler": "ddpm",
+      "steps": 2,
+      "agreement": 1.0,
+      "confidence": 0.9998,
+      "diversity_intra_l2": null,
+      "time_s": 5.1,
+      "nfe": 1000
+    },
+    {
+      "sampler": "ddim",
+      "steps": 2,
+      "agreement": 1.0,
+      "confidence": 0.9995,
+      "diversity_intra_l2": null,
+      "time_s": 0.0,
+      "nfe": 4
+    },
+    {
+      "sampler": "dspp",
+      "steps": 2,
+      "agreement": 1.0,
+      "confidence": 0.9995,
+      "diversity_intra_l2": null,
+      "time_s": 0.0,
+      "nfe": 4
+    },
+    {
+      "sampler": "ddim",
+      "steps": 1,
+      "agreement": 1.0,
+      "confidence": 0.9994,
+      "diversity_intra_l2": null,
+      "time_s": 0.0,
+      "nfe": 2
+    },
+    {
+      "sampler": "dspp",
+      "steps": 1,
+      "agreement": 1.0,
+      "confidence": 0.9994,
+      "diversity_intra_l2": null,
+      "time_s": 0.0,
+      "nfe": 2
+    }
+  ],
+  "guidance_w": 3.0,
+  "x_T_seed": 92,
+  "sampling_seed": 93,
+  "ddpm_steps": 2,
+  "images": 10,
+  "note": "NFE учитывает conditional и unconditional вызовы отдельно (w=3 -> 2 вызова/шаг); у всех прогонов общий x_T и общий seed пошагового шума"
+}

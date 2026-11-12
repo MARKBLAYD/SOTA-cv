@@ -1,0 +1,16 @@
+{
+  "denoiser_ckpt": "c:\\Users\\eric1\\Desktop\\SOTA\\lab17\\artifacts\\full\\lab17_ckpt_denoiser.pt",
+  "denoiser_sha256": "2eb05e6c7f1607321e0cc3c583f3c9c351fb2a5cd994e5c05332a1ddb65135bd",
+  "denoiser_step": 10000,
+  "T": 500,
+  "T_source": "checkpoint лабы 17 (случайная замена запрещена)",
+  "ema_weights": true,
+  "teacher_params": 415041,
+  "teacher_frozen": true,
+  "guidance_w": 3.0,
+  "beta_schedule": "linear 0.0001..0.02 (как в лабе 17)",
+  "classifier_ckpt": "c:\\Users\\eric1\\Desktop\\SOTA\\lab17\\artifacts\\full\\lab17_ckpt_classifier.pt",
+  "classifier_params": 20490,
+  "classifier_report": "c:\\Users\\eric1\\Desktop\\SOTA\\lab17\\artifacts\\full\\lab17_classifier_report.json",
+  "classifier_test_accuracy_report": 0.977
+}

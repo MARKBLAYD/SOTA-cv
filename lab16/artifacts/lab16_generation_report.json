@@ -1,0 +1,51 @@
+{
+  "n_per_class": 8,
+  "seed_sampling": 92,
+  "real_test_nearest_l2": 8.058762550354004,
+  "schemes": {
+    "base": {
+      "cfg": {
+        "temperature": 1.0,
+        "top_k": 0,
+        "top_p": 1.0
+      },
+      "agreement": 0.8375,
+      "confidence": 0.9271055459976196,
+      "diversity_l2": 8.021327686309814,
+      "nearest_test_l2": 5.380875587463379
+    },
+    "lowT": {
+      "cfg": {
+        "temperature": 0.75,
+        "top_k": 0,
+        "top_p": 1.0
+      },
+      "agreement": 0.9375,
+      "confidence": 0.9525758624076843,
+      "diversity_l2": 7.38793716430664,
+      "nearest_test_l2": 4.876889228820801
+    },
+    "topk": {
+      "cfg": {
+        "temperature": 1.0,
+        "top_k": 20,
+        "top_p": 1.0
+      },
+      "agreement": 0.85,
+      "confidence": 0.9257779121398926,
+      "diversity_l2": 8.04495973587036,
+      "nearest_test_l2": 5.385315418243408
+    },
+    "topp": {
+      "cfg": {
+        "temperature": 1.0,
+        "top_k": 0,
+        "top_p": 0.9
+      },
+      "agreement": 0.925,
+      "confidence": 0.9583401083946228,
+      "diversity_l2": 7.595343446731567,
+      "nearest_test_l2": 4.963698387145996
+    }
+  }
+}

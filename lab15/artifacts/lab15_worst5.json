@@ -1,0 +1,55 @@
+{
+  "criterion": "5 сэмплов rf_euler@100, наиболее удалённых от ближайшей test-точки; значения фактические",
+  "worst": [
+    {
+      "rank": 1,
+      "point": [
+        1.5863,
+        0.6518
+      ],
+      "dist_to_nearest_test": 0.5404,
+      "nearest_mode": 0,
+      "dist_to_nearest_mode": 0.8952
+    },
+    {
+      "rank": 2,
+      "point": [
+        -0.7318,
+        1.754
+      ],
+      "dist_to_nearest_test": 0.5145,
+      "nearest_mode": 3,
+      "dist_to_nearest_mode": 0.8474
+    },
+    {
+      "rank": 3,
+      "point": [
+        1.657,
+        0.7018
+      ],
+      "dist_to_nearest_test": 0.5127,
+      "nearest_mode": 1,
+      "dist_to_nearest_mode": 0.8598
+    },
+    {
+      "rank": 4,
+      "point": [
+        -2.0639,
+        0.8397
+      ],
+      "dist_to_nearest_test": 0.509,
+      "nearest_mode": 4,
+      "dist_to_nearest_mode": 0.8506
+    },
+    {
+      "rank": 5,
+      "point": [
+        0.7455,
+        -1.7882
+      ],
+      "dist_to_nearest_test": 0.5083,
+      "nearest_mode": 7,
+      "dist_to_nearest_mode": 0.8428
+    }
+  ]
+}

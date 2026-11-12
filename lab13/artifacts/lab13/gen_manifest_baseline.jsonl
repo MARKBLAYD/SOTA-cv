@@ -1,0 +1,12 @@
+{"checkpoint": "baseline", "step": null, "prompt": "a photo of sks butterfly", "prompt_idx": 0, "seed": 1234, "path": "artifacts\\lab13\\gen\\full_baseline\\p00_seed1234.png", "seconds": 48.3}
+{"checkpoint": "baseline", "step": null, "prompt": "a photo of sks butterfly", "prompt_idx": 0, "seed": 5678, "path": "artifacts\\lab13\\gen\\full_baseline\\p00_seed5678.png", "seconds": 48.1}
+{"checkpoint": "baseline", "step": null, "prompt": "a photo of sks butterfly on a flower", "prompt_idx": 1, "seed": 1234, "path": "artifacts\\lab13\\gen\\full_baseline\\p01_seed1234.png", "seconds": 47.4}
+{"checkpoint": "baseline", "step": null, "prompt": "a photo of sks butterfly on a flower", "prompt_idx": 1, "seed": 5678, "path": "artifacts\\lab13\\gen\\full_baseline\\p01_seed5678.png", "seconds": 47.1}
+{"checkpoint": "baseline", "step": null, "prompt": "a close-up photo of sks butterfly with open wings", "prompt_idx": 2, "seed": 1234, "path": "artifacts\\lab13\\gen\\full_baseline\\p02_seed1234.png", "seconds": 47.1}
+{"checkpoint": "baseline", "step": null, "prompt": "a close-up photo of sks butterfly with open wings", "prompt_idx": 2, "seed": 5678, "path": "artifacts\\lab13\\gen\\full_baseline\\p02_seed5678.png", "seconds": 47.1}
+{"checkpoint": "baseline", "step": null, "prompt": "a photo of two sks butterflies sitting on a leaf", "prompt_idx": 3, "seed": 1234, "path": "artifacts\\lab13\\gen\\full_baseline\\p03_seed1234.png", "seconds": 47.1}
+{"checkpoint": "baseline", "step": null, "prompt": "a photo of two sks butterflies sitting on a leaf", "prompt_idx": 3, "seed": 5678, "path": "artifacts\\lab13\\gen\\full_baseline\\p03_seed5678.png", "seconds": 47.2}
+{"checkpoint": "baseline", "step": null, "prompt": "a photo of sks butterfly in a summer garden", "prompt_idx": 4, "seed": 1234, "path": "artifacts\\lab13\\gen\\full_baseline\\p04_seed1234.png", "seconds": 48.5}
+{"checkpoint": "baseline", "step": null, "prompt": "a photo of sks butterfly in a summer garden", "prompt_idx": 4, "seed": 5678, "path": "artifacts\\lab13\\gen\\full_baseline\\p04_seed5678.png", "seconds": 48.2}
+{"checkpoint": "baseline", "step": null, "prompt": "a watercolor painting of sks butterfly on white background", "prompt_idx": 5, "seed": 1234, "path": "artifacts\\lab13\\gen\\full_baseline\\p05_seed1234.png", "seconds": 48.2}
+{"checkpoint": "baseline", "step": null, "prompt": "a watercolor painting of sks butterfly on white background", "prompt_idx": 5, "seed": 5678, "path": "artifacts\\lab13\\gen\\full_baseline\\p05_seed5678.png", "seconds": 48.7}

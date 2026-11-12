@@ -1,0 +1,42 @@
+{
+  "base": {
+    "scale": 0.0,
+    "cfg": 7.5,
+    "mean_edge_f1": 0.2578,
+    "mean_clip_cos": 0.269,
+    "n_images": 200
+  },
+  "s05_cfg30": {
+    "scale": 0.5,
+    "cfg": 3.0,
+    "mean_edge_f1": 0.4281,
+    "mean_clip_cos": 0.2595,
+    "n_images": 200
+  },
+  "s05_cfg75": {
+    "scale": 0.5,
+    "cfg": 7.5,
+    "mean_edge_f1": 0.4829,
+    "mean_clip_cos": 0.2768,
+    "n_images": 200
+  },
+  "s10_cfg30": {
+    "scale": 1.0,
+    "cfg": 3.0,
+    "mean_edge_f1": 0.4788,
+    "mean_clip_cos": 0.252,
+    "n_images": 200
+  },
+  "s10_cfg75": {
+    "scale": 1.0,
+    "cfg": 7.5,
+    "mean_edge_f1": 0.5967,
+    "mean_clip_cos": 0.266,
+    "n_images": 200
+  },
+  "_selection": {
+    "selected_for_augmentation": "s10_cfg75",
+    "worst_setting": "s05_cfg30",
+    "criterion": "максимальный/минимальный средний edge F1 (метрика по train-контурам, test не использовался)"
+  }
+}

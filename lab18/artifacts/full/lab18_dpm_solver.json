@@ -1,0 +1,9 @@
+{
+  "implementation": "DPM-Solver++ 2M (data prediction, Lu et al. 2022)",
+  "epsilon_predictor": "тот же TinyDenoiser (EMA) из лабы 17",
+  "beta_schedule": "linear 1e-4..0.02 (как в лабе 17)",
+  "check_1m_equals_ddim": true,
+  "max_abs_diff_2m_vs_ddim": 1.0,
+  "check_grid_steps": 4,
+  "nfe_w3": 8
+}

@@ -1,0 +1,12 @@
+{
+  "T": 500,
+  "beta_start": 0.0001,
+  "beta_end": 0.02,
+  "alpha_bar_first": 0.9998999834060669,
+  "alpha_bar_mid": 0.27785876393318176,
+  "alpha_bar_last": 0.006352712400257587,
+  "empirical_mean_t_mid": 0.26481893658638,
+  "empirical_std_t_mid": 0.8506152629852295,
+  "theoretical_mean_t_mid": 0.26356154680252075,
+  "theoretical_std_t_mid": 0.8497889637947083
+}

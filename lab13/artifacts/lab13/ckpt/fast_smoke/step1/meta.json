@@ -1,0 +1,17 @@
+{
+  "config": {
+    "name": "fast_smoke",
+    "rank": 8,
+    "lr": 0.0001,
+    "alpha": 8
+  },
+  "p_uncond": 0.0,
+  "losses": [
+    {
+      "step": 1,
+      "loss": 0.0622
+    }
+  ],
+  "elapsed_s": 1.2,
+  "resumed_from": 0
+}
